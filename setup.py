@@ -39,11 +39,13 @@ if os.path.isfile("setup.cfg"):
     setup_config = ConfigParser()
     setup_config.read("setup.cfg", encoding="utf8")  # python>=3.2
     # Filter out the setup-requires key
-    setup_requires = filter(
-        lambda req: bool(req) and not has_requirement(req),
-        re.split(
-            r"\s*(?:\n+|;(?!;))\s*", setup_config.get("options", "setup-requires", fallback="")
-        ),
+    setup_requires = tuple(
+        filter(
+            lambda req: bool(req) and not has_requirement(req),
+            re.split(
+                r"\s*(?:\n+|;(?!;))\s*", setup_config.get("options", "setup-requires", fallback="")
+            ),
+        )
     )
 
     if setup_requires:
