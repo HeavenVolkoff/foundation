@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 # Internal
+from configparser import ConfigParser
 import os
 import re
-import sys
 import shlex  # python>=3.3
-from configparser import ConfigParser
+import sys
 
 
 def main():
@@ -19,7 +19,8 @@ try:
     import pkg_resources
 except ImportError:
     raise RuntimeError(
-        "The setuptools package is missing or broken. To (re)install it run:\n{} -m pip install -U setuptools",
+        "The setuptools package is missing or broken. To (re)install it run:\n"
+        "{} -m pip install -U setuptools",
         sys.executable,
     )
 
