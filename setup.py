@@ -19,8 +19,7 @@ try:
     import pkg_resources
 except ImportError:
     raise RuntimeError(
-        "The setuptools package is missing or broken. To (re)install it run:\n"
-        "{} -m pip install -U setuptools",
+        "The setuptools package is missing or broken. To (re)install it run:\n{} -m pip install -U setuptools",
         sys.executable,
     )
 
@@ -53,7 +52,7 @@ if os.path.isfile("setup.cfg"):
             "Missing dependencies for installing {}. To proceed run:\n{} -m pip install {}".format(
                 setup_config.get("metadata", "name", fallback="this package"),
                 sys.executable,
-                shlex.quote(" ".join(setup_requires)),
+                " ".join(map(shlex.quote, setup_requires)),
             )
         )
 
