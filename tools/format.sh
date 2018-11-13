@@ -39,9 +39,9 @@ for file in "$@"; do
             exit -1
         fi
 
-        import_sorted="$(isort -q -ac $1 -d)"
+        import_sorted="$(isort -q -ac "$file" -d)"
         if [[ -z "$import_sorted" ]]; then
-            import_sorted="$(cat $1)"
+            import_sorted="$(cat "$file")"
         fi
 
         formatted="$(echo "$import_sorted" | black --config "$(read_config "**.py" black_file)" -)"
@@ -51,12 +51,12 @@ for file in "$@"; do
             exit -1
         fi
 
-        formatted="$(shfmt -i "$(read_config "**.sh" indent_size)" -ci -kp $1)"
+        formatted="$(shfmt -i "$(read_config "**.sh" indent_size)" -ci -kp "$file")"
     else
         echo >&2 "$file: Don't have a recognizable extension"
         continue
     fi
 
-    echo "$formatted" >"$1"
+    echo "$formatted" >"$file"
     echo "$file: Formatted"
 done
