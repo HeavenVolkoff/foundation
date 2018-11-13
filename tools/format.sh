@@ -20,6 +20,10 @@ if [[ -z ${1+x} ]]; then
     exit -1
 fi
 
+read_config()  {
+    echo "$("$__scriptbase/read_config.py" "$__scriptbase/../.editorconfig" "$1" "$2")"
+}
+
 for file in "$@"; do
     if [[ ! -f "$file" ]]; then
         echo >&2 "$file: Don't exist"
@@ -35,14 +39,19 @@ for file in "$@"; do
             exit -1
         fi
 
-        formatted="$(isort -ac $1 -d | black --config black.toml -)"
+        import_sorted="$(isort -q -ac $1 -d)"
+        if [[ -z "$import_sorted" ]]; then
+            import_sorted="$(cat $1)"
+        fi
+
+        formatted="$(echo "$import_sorted" | black --config "$(read_config "**.py" black_file)" -)"
     elif [[ "$file_ext" == "sh" ]]; then
         if ! hash shfmt; then
             echo >&2 "Bash: shfmt are not installed"
             exit -1
         fi
 
-        formatted="$(shfmt -i "$("$__scriptbase/read_config.py" "$__scriptbase/../.editorconfig" "**.sh" indent_size)" -ci -kp $1)"
+        formatted="$(shfmt -i "$(read_config "**.sh" indent_size)" -ci -kp $1)"
     else
         echo >&2 "$file: Don't have a recognizable extension"
         continue

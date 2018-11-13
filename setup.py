@@ -19,7 +19,8 @@ try:
     import pkg_resources
 except ImportError:
     raise RuntimeError(
-        "The setuptools package is missing or broken. To (re)install it run:\n{} -m pip install -U setuptools",
+        "The setuptools package is missing or broken. To (re)install it run:\n"
+        "{} -m pip install -U setuptools",
         sys.executable,
     )
 
