@@ -1,5 +1,5 @@
-## base-module
-A set of files to help creating a python module
+## Foundation
+A simple foundation for building python packages
 
 ### Summary
 + [docs](./docs):
