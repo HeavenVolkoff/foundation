@@ -19,7 +19,7 @@ def main():
         setup(packages=find_namespace_packages("src"), package_dir={"": "src"})
     except DistutilsOptionError:
         raise RuntimeError(
-            "Maybe the setuptools package is too old. To update it run:\n"
+            "Perhaps the setuptools package is too old. To update it run:\n"
             "{} -m pip install -U setuptools",
             sys.executable,
         )
