@@ -1,5 +1,3 @@
-"""Asynchronous Reactive eXtensions."""
-
 __all__ = ("__version__",)
 
 # External
