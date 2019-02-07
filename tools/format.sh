@@ -8,10 +8,10 @@ readonly __this="${__scriptbase}/${__scriptname}"
 
 # --- Command Interpreter Configuration ----------------------------------------
 
-set -e    # exit immediate if an error occurs in a pipeline
-set -u    # don't allow not set variables to be utilized
-set -o pipefail  # trace ERR through pipes
-set -o errtrace  # trace ERR through 'time command' and other functions
+set -e    # Exit immediately if an error occurs in a pipeline
+set -u    # Don't allow not set variables to be utilized
+set -o pipefail  # Trace ERR through pipes
+set -o errtrace  # Trace ERR through 'time command' and other functions
 # set -x  			# Uncomment to debug this shell script
 # set -n  			# Uncomment to check your syntax, without execution.
 
@@ -26,7 +26,7 @@ read_config()  {
 
 for file in "$@"; do
     if [[ ! -f "$file" ]]; then
-        echo >&2 "$file: Don't exist"
+        echo >&2 "$file: Doesn't exist"
         exit -1
     fi
 
@@ -35,7 +35,7 @@ for file in "$@"; do
 
     if [[ "$file_ext" == "py" ]]; then
         if ! { hash isort && hash black; }; then
-            echo >&2 "Python: isort and black are not installed"
+            echo >&2 "Python: isort or black is not installed"
             exit -1
         fi
 
@@ -60,7 +60,7 @@ for file in "$@"; do
 
         formatted="$(qmlfmt "$file")"
     else
-        echo >&2 "$file: Don't have a recognizable extension"
+        echo >&2 "$file: Doesn't have a recognizable extension"
         continue
     fi
 
