@@ -19,7 +19,7 @@ def main():
         setup(packages=find_namespace_packages("src"), package_dir={"": "src"})
     except DistutilsOptionError:
         raise RuntimeError(
-            "Perhaps the setuptools package is too old. To update it run:\n"
+            "Perhaps your setuptools package is too old. To update it run:\n"
             "{} -m pip install -U setuptools",
             sys.executable,
         )
@@ -56,7 +56,7 @@ if path.isfile(SETUP_CONFIG):
 
     if setup_requires:
         raise RuntimeError(
-            "Missing dependencies for installing {}. To proceed run:\n{} -m pip install {}".format(
+            "Missing dependencies to install {}. To proceed run:\n{} -m pip install {}".format(
                 metadata.get("name", "this package"),
                 sys.executable,
                 " ".join(map(shlex.quote, setup_requires)),

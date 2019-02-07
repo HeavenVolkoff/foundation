@@ -1,16 +1,16 @@
 ## Foundation
-A simple foundation for building python packages
+A simple foundation to build python packages
 
 ### Summary
 + [docs](./docs):
-    > Folder containing all related to documentation 
+    > Folder containing everything related to documentation
 + [src](./src):
-    > Folder containing all of the project source code
+    > Folder containing all of the project's source code
 + [tests](./tests):
-    > Folder containing all of the project tests
+    > Folder containing all of the project's tests
 + [tools](./tools):
-    > Folder containing tools for formatting and organizing the code
-    
+    > Folder containing tools for formatting and organizing code
+
 ### License
 See [LICENSE](./LICENSE)
 
