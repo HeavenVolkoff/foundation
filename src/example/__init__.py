@@ -1,9 +1,7 @@
-__all__ = ("__version__",)
-
 # External
-import pkg_resources
+from importlib_metadata import version
 
-try:
-    __version__ = str(pkg_resources.resource_string(__name__, "VERSION"), encoding="utf8")
-except (pkg_resources.ResolutionError,  FileNotFoundError):
-    __version__ = "0.0a0"
+# TODO: Change to match module's name
+__version__ = version("foundation")
+
+__all__ = ("__version__",)

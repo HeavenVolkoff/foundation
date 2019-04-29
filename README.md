@@ -1,7 +1,9 @@
-## Foundation
+# Foundation
+
 A simple foundation to build python packages
 
-### Summary
+## Summary
+
 + [docs](./docs):
     > Folder containing everything related to documentation
 + [src](./src):
@@ -11,8 +13,10 @@ A simple foundation to build python packages
 + [tools](./tools):
     > Folder containing tools for formatting and organizing code
 
-### License
+## License
+
 See [LICENSE](./LICENSE)
 
-### COPYRIGHT
+## COPYRIGHT
+
     Copyright (c) 2018 Vítor Augusto da Silva Vasconcellos. All rights reserved.
