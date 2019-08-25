@@ -1,10 +1,9 @@
 # External
-from importlib_metadata import version
-
+from importlib_metadata import version  # type: ignore
 
 try:
-    __version__ = version(__name__)
-except Exception:
+    __version__: str = version(__name__)
+except Exception:  # pragma: no cover
     import traceback
     from warnings import warn
 
