@@ -59,7 +59,7 @@ if __name__ == "__main__":
         )
 
     try:
-        setup(packages=find_namespace_packages("src"), package_dir={"": "src"})
+        setup(packages=find_namespace_packages("."))
     except DistutilsOptionError:
         raise RuntimeError(
             "Perhaps your setuptools package is too old. To update it run:\n"
