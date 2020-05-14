@@ -14,6 +14,7 @@ for file in $(ls jsonld); do
     license=$(basename "$file" .jsonld)
     text="$(cat "jsonld/$file" | jq -r '. | select((.isFsfLibre == "true" or .isOsiApproved == "true") and (.isDeprecatedLicenseId == null or .isDeprecatedLicenseId == "false")) | .licenseText')"
     [ -z "$text" ] && continue
+    echo >&2 "$license"
     cat << EOF
 {% ${IF} cookiecutter.project_license == "${license}" -%}
 ${text}
