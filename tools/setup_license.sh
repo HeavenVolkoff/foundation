@@ -15,9 +15,9 @@ for file in $(ls jsonld); do
     text="$(cat "jsonld/$file" | jq -r '. | select((.isFsfLibre == "true" or .isOsiApproved == "true") and (.isDeprecatedLicenseId == null or .isDeprecatedLicenseId == "false")) | .licenseText')"
     [ -z "$text" ] && continue
     cat << EOF
-{%- ${IF} cookiecutter.project_license == "${license}" -%}
+{% ${IF} cookiecutter.project_license == "${license}" -%}
 ${text}
 EOF
     IF="elif"
 done
-echo "{% endif %}"
+echo "{% endif -%}"

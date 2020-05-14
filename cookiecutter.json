@@ -1,13 +1,13 @@
 {
-  "author_name": "Vítor Vasconcellos",
-  "author_email": "vasconcellos.dev@gmail.com",
+  "_extensions": ["cookiecutter.extensions.SlugifyExtension"],
+  "project_name": "You Project Name",
+  "project_slug": "{{ cookiecutter.project_name | slugify }}",
+  "author_name": "Your Name",
+  "author_email": "your.email@example.com",
   "maintainer_name": "{{cookiecutter.author_name}}",
   "maintainer_email": "{{cookiecutter.author_email}}",
-  "python_requires": ">=3.6",
-  "project_url": "https://github.com/HeavenVolkoff/foundation",
-  "project_name": "foundation",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "project_version": "0.0.0",
+  "project_url": "https://{{cookiecutter.project_slug}}.home",
+  "project_download_url": "{{cookiecutter.project_url}}/download",
   "project_license": [
     "LicenseRef-Proprietary",
     "LicenseRef-Public-Domain",
@@ -202,9 +202,9 @@
     "GPL-2.0+",
     "GPL-3.0"
   ],
-  "project_keywords": "base modules package template bootstrap foundation cookiecutter",
-  "project_description": "Base template for python projects",
-  "project_bug_tracker": "{{cookiecutter.project_url}}/issues",
-  "project_source_code": "{{cookiecutter.project_url}}",
-  "project_download_url": "{{cookiecutter.project_url}}"
+  "python_version": ">=3.6",
+  "project_keywords": "whitespace separated keywords relative to your project",
+  "project_description": "A short description of your project",
+  "project_source_code": "https://repo.{{cookiecutter.project_slug}}.home",
+  "project_bug_tracker": "{{cookiecutter.project_source_code}}/issues"
 }

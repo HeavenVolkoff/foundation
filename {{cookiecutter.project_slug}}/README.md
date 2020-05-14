@@ -1,22 +1,9 @@
-# Foundation
+# {{ cookiecutter.project_name }}
 
-A simple foundation to build python packages
+{{ cookiecutter.project_description }}
 
-## Summary
-
-+ [docs](./docs):
-    > Folder containing everything related to documentation
-+ [src](./src):
-    > Folder containing all of the project's source code
-+ [tests](./tests):
-    > Folder containing all of the project's tests
-+ [tools](./tools):
-    > Folder containing tools for formatting and organizing code
-
+{% if cookiecutter.project_license not in ("LicenseRef-Proprietary", "LicenseRef-Public-Domain") -%}
 ## License
 
 See [LICENSE](./LICENSE)
-
-## COPYRIGHT
-
-    Copyright (c) 2018 Vítor Augusto da Silva Vasconcellos. All rights reserved.
+{% endif -%}

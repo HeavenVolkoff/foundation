@@ -1,10 +1,10 @@
-{%- if cookiecutter.project_license == "0BSD" -%}
+{% if cookiecutter.project_license == "0BSD" -%}
 Copyright (C) 2006 by Rob Landley <rob@landley.net>
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
 
 THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-{%- elif cookiecutter.project_license == "AAL" -%}
+{% elif cookiecutter.project_license == "AAL" -%}
 Attribution Assurance License Copyright (c) 2002 by AUTHOR PROFESSIONAL IDENTIFICATION * URL "PROMOTIONAL SLOGAN FOR AUTHOR'S PROFESSIONAL PRACTICE"
 
 All Rights Reserved ATTRIBUTION ASSURANCE LICENSE (adapted from the original BSD license)
@@ -26,7 +26,7 @@ Redistribution and use in source and binary forms, with or without modification,
    4. Users are entirely responsible, to the exclusion of the Author and any other persons, for compliance with (1) regulations set by owners or administrators of employed equipment, (2) licensing terms of any other software, and (3) local regulations regarding use, including those regarding import, export, and use of encryption software.
 
 THIS FREE SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR ANY CONTRIBUTOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, EFFECTS OF UNAUTHORIZED OR MALICIOUS NETWORK ACCESS; PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "AFL-1.1" -%}
+{% elif cookiecutter.project_license == "AFL-1.1" -%}
 Academic Free License
 
 Version 1.1 The Academic Free License applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
@@ -54,7 +54,7 @@ Mutual Termination for Patent Action. This License shall terminate automatically
 This license is Copyright (C) 2002 Lawrence E. Rosen. All rights reserved.
 
 Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
-{%- elif cookiecutter.project_license == "AFL-1.2" -%}
+{% elif cookiecutter.project_license == "AFL-1.2" -%}
 Academic Free License
 
 Version 1.2 This Academic Free License applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
@@ -80,7 +80,7 @@ Right to Use. You may use the Original Work in all ways not otherwise restricted
 This license is Copyright (C) 2002 Lawrence E. Rosen. All rights reserved.
 
 Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
-{%- elif cookiecutter.project_license == "AFL-2.0" -%}
+{% elif cookiecutter.project_license == "AFL-2.0" -%}
 The Academic Free License
 
 v. 2.0 This Academic Free License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
@@ -130,7 +130,7 @@ Licensed under the Academic Free License version 2.0
 This license is Copyright (C) 2003 Lawrence E. Rosen. All rights reserved.
 
 Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
-{%- elif cookiecutter.project_license == "AFL-2.1" -%}
+{% elif cookiecutter.project_license == "AFL-2.1" -%}
 The Academic Free License
 
 v.2.1 This Academic Free License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
@@ -180,7 +180,7 @@ Licensed under the Academic Free License version 2.1
 This license is Copyright (C) 2003-2004 Lawrence E. Rosen. All rights reserved.
 
 Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
-{%- elif cookiecutter.project_license == "AFL-3.0" -%}
+{% elif cookiecutter.project_license == "AFL-3.0" -%}
 Academic Free License ("AFL") v. 3.0 This Academic Free License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following licensing notice adjacent to the copyright notice for the Original Work:
 
 Licensed under the Academic Free License version 3.0
@@ -226,7 +226,7 @@ Licensed under the Academic Free License version 3.0
    15) Right to Use. You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises not to interfere with or be responsible for such uses by You.
 
    16) Modification of This License. This License is Copyright © 2005 Lawrence Rosen. Permission is granted to copy, distribute, or communicate this License without modification. Nothing in this License permits You to modify this License as applied to the Original Work or to Derivative Works. However, You may modify the text of this License and copy, distribute or communicate your modified version (the "Modified License") and apply it to other original works of authorship subject to the following conditions: (i) You may not indicate in any way that your Modified License is the "Academic Free License" or "AFL" and you may not use those names in the name of your Modified License; (ii) You must replace the notice specified in the first paragraph above with the notice "Licensed under <insert your license name here>" or with a notice of your own that is not confusingly similar to the notice in this License; and (iii) You may not claim that your original works are open source software unless your Modified License has been approved by Open Source Initiative (OSI) and You comply with its license review and certification process.
-{%- elif cookiecutter.project_license == "AGPL-3.0-only" -%}
+{% elif cookiecutter.project_license == "AGPL-3.0-only" -%}
 GNU AFFERO GENERAL PUBLIC LICENSE
 
 Version 3, 19 November 2007
@@ -472,7 +472,7 @@ Also add information on how to contact you by electronic and paper mail.
 If your software can interact with users remotely through a computer network, you should also make sure that it provides a way for users to get its source. For example, if your program is a web application, its interface could display a "Source" link that leads users to an archive of the code. There are many ways you could offer source, and different solutions will be better for different programs; see section 13 for the specific requirements.
 
 You should also get your employer (if you work as a programmer) or school, if any, to sign a "copyright disclaimer" for the program, if necessary. For more information on this, and how to apply and follow the GNU AGPL, see <https://www.gnu.org/licenses/>.
-{%- elif cookiecutter.project_license == "AGPL-3.0-or-later" -%}
+{% elif cookiecutter.project_license == "AGPL-3.0-or-later" -%}
 GNU AFFERO GENERAL PUBLIC LICENSE
 
 Version 3, 19 November 2007
@@ -718,7 +718,7 @@ Also add information on how to contact you by electronic and paper mail.
 If your software can interact with users remotely through a computer network, you should also make sure that it provides a way for users to get its source. For example, if your program is a web application, its interface could display a "Source" link that leads users to an archive of the code. There are many ways you could offer source, and different solutions will be better for different programs; see section 13 for the specific requirements.
 
 You should also get your employer (if you work as a programmer) or school, if any, to sign a "copyright disclaimer" for the program, if necessary. For more information on this, and how to apply and follow the GNU AGPL, see <https://www.gnu.org/licenses/>.
-{%- elif cookiecutter.project_license == "Apache-1.0" -%}
+{% elif cookiecutter.project_license == "Apache-1.0" -%}
 Copyright (c) 1995-1999 The Apache Group. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -740,7 +740,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE APACHE GROUP ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE APACHE GROUP OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 This software consists of voluntary contributions made by many individuals on behalf of the Apache Group and was originally based on public domain software written at the National Center for Supercomputing Applications, University of Illinois, Urbana-Champaign. For more information on the Apache Group and the Apache HTTP server project, please see <http://www.apache.org/>.
-{%- elif cookiecutter.project_license == "Apache-1.1" -%}
+{% elif cookiecutter.project_license == "Apache-1.1" -%}
 Apache License 1.1 Copyright (c) 2000 The Apache Software Foundation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -762,7 +762,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE APACHE SOFTWARE FOUNDATION OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 This software consists of voluntary contributions made by many individuals on behalf of the Apache Software Foundation. For more information on the Apache Software Foundation, please see http://www.apache.org/. Portions of this software are based upon public domain software originally written at the National Center for Supercomputing Applications, University of Illinois, Urbana-Champaign.
-{%- elif cookiecutter.project_license == "Apache-2.0" -%}
+{% elif cookiecutter.project_license == "Apache-2.0" -%}
 Apache License
 
 Version 2.0, January 2004
@@ -860,7 +860,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 
 limitations under the License.
-{%- elif cookiecutter.project_license == "APL-1.0" -%}
+{% elif cookiecutter.project_license == "APL-1.0" -%}
 ADAPTIVE PUBLIC LICENSE
 
 Version 1.0
@@ -1220,7 +1220,7 @@ EXHIBIT A (to the Adaptive Public License)
    Each Subsequent Contributor (including the Initial Contributor where the Initial Contributor qualifies as a Subsequent Contributor) is invited (but not required) to cause each Subsequent Work created or contributed to by that Subsequent Contributor to contain a file documenting the changes such Subsequent Contributor made to create that Subsequent Work and the date of any change.
 
 //***EXHIBIT A ENDS HERE.***//
-{%- elif cookiecutter.project_license == "APSL-1.0" -%}
+{% elif cookiecutter.project_license == "APSL-1.0" -%}
 APPLE PUBLIC SOURCE LICENSE
 
 Version 1.0 - March 16, 1999 Please read this License carefully before downloading this software. By downloading and using this software, you are agreeing to be bound by the terms of this License. If you do not or cannot agree to the terms of this License, please do not download or use the software.
@@ -1330,7 +1330,7 @@ Version 1.0 - March 16, 1999 Please read this License carefully before downloadi
 "Portions Copyright (c) 1999 Apple Computer, Inc. All Rights Reserved. This file contains Original Code and/or Modifications of Original Code as defined in and that are subject to the Apple Public Source License Version 1.0 (the 'License'). You may not use this file except in compliance with the License. Please obtain a copy of the License at http://www.apple.com/publicsource and read it before using this file.
 
 The Original Code and all software distributed under the License are distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT. Please see the License for the specific language governing rights and limitations under the License."
-{%- elif cookiecutter.project_license == "APSL-1.1" -%}
+{% elif cookiecutter.project_license == "APSL-1.1" -%}
 APPLE PUBLIC SOURCE LICENSE
 
 Version 1.1 - April 19, 1999 Please read this License carefully before downloading this software.
@@ -1438,7 +1438,7 @@ By downloading and using this software, you are agreeing to be bound by the term
 "Portions Copyright (c) 1999-2000 Apple Computer, Inc. All Rights Reserved. This file contains Original Code and/or Modifications of Original Code as defined in and that are subject to the Apple Public Source License Version 1.1 (the "License"). You may not use this file except in compliance with the License. Please obtain a copy of the License at http://www.apple.com/publicsource and read it before using this file.
 
 The Original Code and all software distributed under the License are distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON- INFRINGEMENT. Please see the License for the specific language governing rights and limitations under the License."
-{%- elif cookiecutter.project_license == "APSL-1.2" -%}
+{% elif cookiecutter.project_license == "APSL-1.2" -%}
 Apple Public Source License Ver. 1.2
 
    1. General; Definitions. This License applies to any program or other work which Apple Computer, Inc. ("Apple") makes publicly available and which contains a notice placed by Apple identifying such program or work as "Original Code" and stating that it is subject to the terms of this Apple Public Source License version 1.2 (or subsequent version thereof) ("License"). As used in this License:
@@ -1540,7 +1540,7 @@ Apple Public Source License Ver. 1.2
 This file contains Original Code and/or Modifications of Original Code as defined in and that are subject to the Apple Public Source License Version 1.2 (the 'License'). You may not use this file except in compliance with the License. Please obtain a copy of the License at http://www.apple.com/publicsource and read it before using this file.
 
 The Original Code and all software distributed under the License are distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT. Please see the License for the specific language governing rights and limitations under the License."
-{%- elif cookiecutter.project_license == "APSL-2.0" -%}
+{% elif cookiecutter.project_license == "APSL-2.0" -%}
 APPLE PUBLIC SOURCE LICENSE
 
 Version 2.0 - August 6, 2003 Please read this License carefully before downloading this software. By downloading or using this software, you are agreeing to be bound by the terms of this License. If you do not or cannot agree to the terms of this License, please do not download or use the software.
@@ -1640,7 +1640,7 @@ Apple Note: In January 2007, Apple changed its corporate name from "Apple Comput
 This file contains Original Code and/or Modifications of Original Code as defined in and that are subject to the Apple Public Source License Version 2.0 (the 'License'). You may not use this file except in compliance with the License. Please obtain a copy of the License at http://www.opensource.apple.com/apsl/ and read it before using this file.
 
 The Original Code and all software distributed under the License are distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT. Please see the License for the specific language governing rights and limitations under the License."
-{%- elif cookiecutter.project_license == "Artistic-1.0-cl8" -%}
+{% elif cookiecutter.project_license == "Artistic-1.0-cl8" -%}
 The Artistic License
 
 Preamble
@@ -1696,7 +1696,7 @@ Definitions:
    9. The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.
 
    10. THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE. The End
-{%- elif cookiecutter.project_license == "Artistic-1.0" -%}
+{% elif cookiecutter.project_license == "Artistic-1.0" -%}
 The Artistic License
 
 Preamble
@@ -1750,7 +1750,7 @@ Definitions:
    8. The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.
 
    9. THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE. The End
-{%- elif cookiecutter.project_license == "Artistic-1.0-Perl" -%}
+{% elif cookiecutter.project_license == "Artistic-1.0-Perl" -%}
 The "Artistic License"
 
 Preamble
@@ -1806,7 +1806,7 @@ Definitions:
    9. The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.
 
    10. THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE. The End
-{%- elif cookiecutter.project_license == "Artistic-2.0" -%}
+{% elif cookiecutter.project_license == "Artistic-2.0" -%}
 The Artistic License 2.0
 
 Copyright (c) 2000-2006, The Perl Foundation.
@@ -1918,7 +1918,7 @@ General Provisions
    (14) Disclaimer of Warranty:
 
    THE PACKAGE IS PROVIDED BY THE COPYRIGHT HOLDER AND CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES. THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT ARE DISCLAIMED TO THE EXTENT PERMITTED BY YOUR LOCAL LAW. UNLESS REQUIRED BY LAW, NO COPYRIGHT HOLDER OR CONTRIBUTOR WILL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "BitTorrent-1.1" -%}
+{% elif cookiecutter.project_license == "BitTorrent-1.1" -%}
 BitTorrent Open Source License
 
 Version 1.1
@@ -2062,7 +2062,7 @@ The contents of this file are subject to the BitTorrent Open Source License Vers
 Software distributed under the License is distributed on an AS IS basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
 
 BitTorrent, Inc.
-{%- elif cookiecutter.project_license == "BSD-1-Clause" -%}
+{% elif cookiecutter.project_license == "BSD-1-Clause" -%}
 Copyright (c) <year> <owner> All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -2070,7 +2070,7 @@ Redistribution and use in source and binary forms, with or without modification,
    1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
 THIS SOFTWARE IS PROVIDED BY Berkeley Software Design, Inc. "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Berkeley Software Design, Inc. BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "BSD-2-Clause-FreeBSD" -%}
+{% elif cookiecutter.project_license == "BSD-2-Clause-FreeBSD" -%}
 The FreeBSD Copyright Copyright 1992-2012 The FreeBSD Project. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -2082,7 +2082,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE FREEBSD PROJECT ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FREEBSD PROJECT OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 The views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the FreeBSD Project.
-{%- elif cookiecutter.project_license == "BSD-2-Clause" -%}
+{% elif cookiecutter.project_license == "BSD-2-Clause" -%}
 Copyright (c) <year> <owner>. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -2092,7 +2092,7 @@ Redistribution and use in source and binary forms, with or without modification,
    2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "BSD-2-Clause-Patent" -%}
+{% elif cookiecutter.project_license == "BSD-2-Clause-Patent" -%}
 Copyright (c) <YEAR> <COPYRIGHT HOLDERS>
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -2112,7 +2112,7 @@ Except as expressly stated above, no rights or licenses from any copyright holde
 DISCLAIMER
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "BSD-3-Clause-Clear" -%}
+{% elif cookiecutter.project_license == "BSD-3-Clause-Clear" -%}
 The Clear BSD License Copyright (c) [xxxx]-[xxxx] [Owner Organization]
 
 All rights reserved.
@@ -2126,7 +2126,7 @@ Redistribution and use in source and binary forms, with or without modification,
       * Neither the name of [Owner Organization] nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "BSD-3-Clause" -%}
+{% elif cookiecutter.project_license == "BSD-3-Clause" -%}
 Copyright (c) <year> <owner>. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -2138,7 +2138,7 @@ Redistribution and use in source and binary forms, with or without modification,
    3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "BSD-3-Clause-LBNL" -%}
+{% elif cookiecutter.project_license == "BSD-3-Clause-LBNL" -%}
 Copyright (c) 2003, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -2152,7 +2152,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER , THE UNITED STATES GOVERNMENT, OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 You are under no obligation whatsoever to provide any bug fixes, patches, or upgrades to the features, functionality or performance of the source code ("Enhancements") to anyone; however, if you choose to make your Enhancements available either publicly, or directly to Lawrence Berkeley National Laboratory , without imposing a separate written license agreement for such Enhancements, then you hereby grant the following license: a non-exclusive, royalty-free perpetual license to install, use, modify, prepare derivative works, incorporate into other computer software, distribute, and sublicense such Enhancements or derivative works thereof, in binary and source code form.
-{%- elif cookiecutter.project_license == "BSD-4-Clause" -%}
+{% elif cookiecutter.project_license == "BSD-4-Clause" -%}
 Copyright (c) <year> <owner>. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -2168,7 +2168,7 @@ Redistribution and use in source and binary forms, with or without modification,
    4. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY COPYRIGHT HOLDER "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "BSL-1.0" -%}
+{% elif cookiecutter.project_license == "BSL-1.0" -%}
 Boost Software License - Version 1.0 - August 17th, 2003
 
 Permission is hereby granted, free of charge, to any person or organization obtaining a copy of the software and accompanying documentation covered by this license (the "Software") to use, reproduce, display, distribute, execute, and transmit the Software, and to prepare derivative works of the Software, and to permit third-parties to whom the Software is furnished to do so, all subject to the following:
@@ -2176,7 +2176,7 @@ Permission is hereby granted, free of charge, to any person or organization obta
 The copyright notices in the Software and this entire statement, including the above license grant, this restriction and the following disclaimer, must be included in all copies of the Software, in whole or in part, and all derivative works of the Software, unless such copies or derivative works are solely in the form of machine-executable object code generated by a source language processor.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-{%- elif cookiecutter.project_license == "CAL-1.0-Combined-Work-Exception" -%}
+{% elif cookiecutter.project_license == "CAL-1.0-Combined-Work-Exception" -%}
 # The Cryptographic Autonomy License, v. 1.0
 
 *This Cryptographic Autonomy License (the "License") applies to any Work whose owner has marked it with any of the following notices, or a similar demonstration of intent: *
@@ -2368,7 +2368,7 @@ ______________________________________________________________________
       ### 7.7. License for the Text of this License
 
       The text of this license is released under the Creative Commons Attribution-ShareAlike 4.0 International License, with the caveat that any modifications of this license may not use the name "Cryptographic Autonomy License" or any name confusingly similar thereto to describe any derived work of this License.
-{%- elif cookiecutter.project_license == "CAL-1.0" -%}
+{% elif cookiecutter.project_license == "CAL-1.0" -%}
 # The Cryptographic Autonomy License, v. 1.0
 
 *This Cryptographic Autonomy License (the "License") applies to any Work whose owner has marked it with any of the following notices, or a similar demonstration of intent: *
@@ -2560,7 +2560,7 @@ ______________________________________________________________________
       ### 7.7. License for the Text of this License
 
       The text of this license is released under the Creative Commons Attribution-ShareAlike 4.0 International License, with the caveat that any modifications of this license may not use the name "Cryptographic Autonomy License" or any name confusingly similar thereto to describe any derived work of this License.
-{%- elif cookiecutter.project_license == "CATOSL-1.1" -%}
+{% elif cookiecutter.project_license == "CATOSL-1.1" -%}
 Computer Associates Trusted Open Source License
 
 Version 1.1
@@ -2682,7 +2682,7 @@ The provisions that follow set forth the terms and conditions under which you ma
       11.6 The Program is subject to all export and import laws, restrictions and regulations of the country in which Recipient receives the Program. Recipient is solely responsible for complying with and ensuring that Recipient does not export, re-export, or import the Program in violation of such laws, restrictions or regulations, or without any necessary licenses and authorizations.
 
       11.7 This License constitutes the entire agreement between the parties with respect to the subject matter hereof.
-{%- elif cookiecutter.project_license == "CC0-1.0" -%}
+{% elif cookiecutter.project_license == "CC0-1.0" -%}
 Creative Commons Legal Code
 
 CC0 1.0 Universal CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.
@@ -2724,7 +2724,7 @@ For these and/or other purposes and motivations, and without any expectation of 
       c. Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
 
       d. Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work. 
-{%- elif cookiecutter.project_license == "CC-BY-4.0" -%}
+{% elif cookiecutter.project_license == "CC-BY-4.0" -%}
 Creative Commons Attribution 4.0 International Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
 
 Using Creative Commons Public Licenses
@@ -2878,7 +2878,7 @@ Section 8 – Interpretation.
 Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the "Licensor." The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark "Creative Commons" or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
-{%- elif cookiecutter.project_license == "CC-BY-SA-4.0" -%}
+{% elif cookiecutter.project_license == "CC-BY-SA-4.0" -%}
 Creative Commons Attribution-ShareAlike 4.0 International Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
 
 Using Creative Commons Public Licenses
@@ -3048,7 +3048,7 @@ Section 8 – Interpretation.
 Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the "Licensor." The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark "Creative Commons" or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
-{%- elif cookiecutter.project_license == "CDDL-1.0" -%}
+{% elif cookiecutter.project_license == "CDDL-1.0" -%}
 COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)
 
 Version 1.0
@@ -3180,7 +3180,7 @@ Version 1.0
    10. RESPONSIBILITY FOR CLAIMS.
 
    As between Initial Developer and the Contributors, each party is responsible for claims and damages arising, directly or indirectly, out of its utilization of rights under this License and You agree to work with Initial Developer and Contributors to distribute such responsibility on an equitable basis. Nothing herein is intended or shall be deemed to constitute any admission of liability.
-{%- elif cookiecutter.project_license == "CECILL-2.0" -%}
+{% elif cookiecutter.project_license == "CECILL-2.0" -%}
 CeCILL FREE SOFTWARE LICENSE AGREEMENT Notice
 
 This Agreement is a Free Software license agreement that is the result of discussions between its authors in order to ensure compliance with the two main principles guiding its drafting:
@@ -3458,7 +3458,7 @@ The authors of the CeCILL¹ license are:
       13.2 Failing an amicable solution within two (2) months as from their occurrence, and unless emergency proceedings are necessary, the disagreements or disputes shall be referred to the Paris Courts having jurisdiction, by the more diligent Party.
 
 Version 2.0 dated 2006-09-05. 1 CeCILL stands for Ce(a) C(nrs) I(nria) L(ogiciel) L(ibre)
-{%- elif cookiecutter.project_license == "CECILL-2.1" -%}
+{% elif cookiecutter.project_license == "CECILL-2.1" -%}
 CeCILL FREE SOFTWARE LICENSE AGREEMENT
 
 Version 2.1 dated 2013-06-21 Notice
@@ -3748,7 +3748,7 @@ The authors of the CeCILL¹ license are:
       13.1 The Agreement is governed by French law. The Parties agree to endeavor to seek an amicable solution to any disagreements or disputes that may arise during the performance of the Agreement.
 
       13.2 Failing an amicable solution within two (2) months as from their occurrence, and unless emergency proceedings are necessary, the disagreements or disputes shall be referred to the Paris Courts having jurisdiction, by the more diligent Party. 1 CeCILL stands for Ce(a) C(nrs) I(nria) L(ogiciel) L(ibre)
-{%- elif cookiecutter.project_license == "CECILL-B" -%}
+{% elif cookiecutter.project_license == "CECILL-B" -%}
 CeCILL-B FREE SOFTWARE LICENSE AGREEMENT Notice
 
 This Agreement is a Free Software license agreement that is the result of discussions between its authors in order to ensure compliance with the two main principles guiding its drafting:
@@ -4028,7 +4028,7 @@ The authors of the CeCILL¹ license are:
       13.2 Failing an amicable solution within two (2) months as from their occurrence, and unless emergency proceedings are necessary, the disagreements or disputes shall be referred to the Paris Courts having jurisdiction, by the more diligent Party.
 
 Version 1.0 dated 2006-09-05. 1 CeCILL stands for Ce(a) C(nrs) I(nria) L(ogiciel) L(ibre)
-{%- elif cookiecutter.project_license == "CECILL-C" -%}
+{% elif cookiecutter.project_license == "CECILL-C" -%}
 CeCILL-C FREE SOFTWARE LICENSE AGREEMENT Notice
 
 This Agreement is a Free Software license agreement that is the result of discussions between its authors in order to ensure compliance with the two main principles guiding its drafting:
@@ -4304,7 +4304,7 @@ The authors of the CeCILL¹ license are:
       13.2 Failing an amicable solution within two (2) months as from their occurrence, and unless emergency proceedings are necessary, the disagreements or disputes shall be referred to the Paris Courts having jurisdiction, by the more diligent Party.
 
 Version 1.0 dated 2006-09-05. 1 CeCILL stands for Ce(a) C(nrs) I(nria) L(ogiciel) L(ibre)
-{%- elif cookiecutter.project_license == "ClArtistic" -%}
+{% elif cookiecutter.project_license == "ClArtistic" -%}
 The Clarified Artistic License
 
 Preamble
@@ -4364,7 +4364,7 @@ Definitions:
    9. The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.
 
    10. THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE. The End
-{%- elif cookiecutter.project_license == "CNRI-Python" -%}
+{% elif cookiecutter.project_license == "CNRI-Python" -%}
 CNRI OPEN SOURCE LICENSE AGREEMENT
 
 IMPORTANT: PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY.
@@ -4390,7 +4390,7 @@ BY CLICKING ON "ACCEPT" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHE
    8. By clicking on the "ACCEPT" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.
 
 ACCEPT
-{%- elif cookiecutter.project_license == "Condor-1.1" -%}
+{% elif cookiecutter.project_license == "Condor-1.1" -%}
 Condor Public License
 
 Version 1.1, October 30, 2003 Copyright © 1990-2006 Condor Team, Computer Sciences Department, University of Wisconsin-Madison, Madison, WI. All Rights Reserved. For more information contact: Condor Team, Attention: Professor Miron Livny, Dept of Computer Sciences, 1210 W. Dayton St., Madison, WI 53706-1685, (608) 262-0856 or miron@cs.wisc.edu.
@@ -4440,7 +4440,7 @@ Madison, WI 53706-1685
 miron@cs.wisc.edu
 
 http://pages.cs.wisc.edu/~miron/miron.html
-{%- elif cookiecutter.project_license == "CPAL-1.0" -%}
+{% elif cookiecutter.project_license == "CPAL-1.0" -%}
 Common Public Attribution License Version 1.0 (CPAL)
 
    1. "Definitions"
@@ -4642,7 +4642,7 @@ Attribution URL: _______________________
 Graphic Image as provided in the Covered Code, if any.
 
 Display of Attribution Information is [required/not required] in Larger Works which are defined in the CPAL as a work which combines Covered Code or portions thereof with code not governed by the terms of the CPAL.
-{%- elif cookiecutter.project_license == "CPL-1.0" -%}
+{% elif cookiecutter.project_license == "CPL-1.0" -%}
 Common Public License Version 1.0
 
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS COMMON PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT. 1.
@@ -4730,7 +4730,7 @@ All Recipient's rights under this Agreement shall terminate if it fails to compl
 Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. IBM is the initial Agreement Steward. IBM may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
 
 This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
-{%- elif cookiecutter.project_license == "CUA-OPL-1.0" -%}
+{% elif cookiecutter.project_license == "CUA-OPL-1.0" -%}
 CUA Office Public License Version 1.0
 
    1. Definitions.
@@ -4880,7 +4880,7 @@ Contributor(s): ______________________________________ .
 Alternatively, the contents of this file may be used under the terms of the _____ license (the " [___] License"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the CUAPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the CUAPL or the [___] License."
 
 [NOTE: The text of this Exhibit A may differ slightly from the text of the notices in the Source Code files of the Original Code. You should use the text of this Exhibit A rather than the text found in the Original Code Source Code for Your Modifications.]
-{%- elif cookiecutter.project_license == "ECL-1.0" -%}
+{% elif cookiecutter.project_license == "ECL-1.0" -%}
 The Educational Community License
 
 This Educational Community License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
@@ -4904,7 +4904,7 @@ Any modifications of the Original Work must be distributed in such a manner as t
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 The name and trademarks of copyright holder(s) may NOT be used in advertising or publicity pertaining to the Original or Derivative Works without specific, written prior permission. Title to copyright in the Original Work and any associated documentation will at all times remain with the copyright holders.
-{%- elif cookiecutter.project_license == "ECL-2.0" -%}
+{% elif cookiecutter.project_license == "ECL-2.0" -%}
 Educational Community License
 
 Version 2.0, April 2007 http://www.osedu.org/licenses/
@@ -5034,7 +5034,7 @@ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
 or implied. See the License for the specific language governing
 
 permissions and limitations under the License.
-{%- elif cookiecutter.project_license == "EFL-1.0" -%}
+{% elif cookiecutter.project_license == "EFL-1.0" -%}
 Eiffel Forum License, version 1
 
 Permission is hereby granted to use, copy, modify and/or distribute this package, provided that:
@@ -5048,7 +5048,7 @@ Permission is hereby also granted to distribute binary programs which depend on 
    - if the binary program depends on a modified version of this package, you must publicly release the modified version of this package
 
 THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS PACKAGE.
-{%- elif cookiecutter.project_license == "EFL-2.0" -%}
+{% elif cookiecutter.project_license == "EFL-2.0" -%}
 Eiffel Forum License, version 2
 
    1. Permission is hereby granted to use, copy, modify and/or distribute this package, provided that:
@@ -5060,7 +5060,7 @@ Eiffel Forum License, version 2
    2. Permission is hereby also granted to distribute binary programs which depend on this package. If the binary program depends on a modified version of this package, you are encouraged to publicly release the modified version of this package.
 
 THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS PACKAGE.
-{%- elif cookiecutter.project_license == "Entessa" -%}
+{% elif cookiecutter.project_license == "Entessa" -%}
 Entessa Public License Version. 1.0 Copyright (c) 2003 Entessa, LLC. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -5082,7 +5082,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ENTESSA, LLC, OPENSEAL OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 This software consists of voluntary contributions made by many individuals on behalf of openSEAL and was originally based on software contributed by Entessa, LLC, http://www.entessa.com. For more information on the openSEAL, please see <http://www.openseal.org/>.
-{%- elif cookiecutter.project_license == "EPL-1.0" -%}
+{% elif cookiecutter.project_license == "EPL-1.0" -%}
 Eclipse Public License - v 1.0
 
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
@@ -5170,7 +5170,7 @@ THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICE
    Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
 
    This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
-{%- elif cookiecutter.project_license == "EPL-2.0" -%}
+{% elif cookiecutter.project_license == "EPL-2.0" -%}
 Eclipse Public License - v 2.0
 
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
@@ -5278,7 +5278,7 @@ THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICE
    If it is not possible or desirable to put the notice in a particular file, then You may include the notice in a location (such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice.
 
    You may add additional accurate notices of copyright ownership.
-{%- elif cookiecutter.project_license == "EUDatagrid" -%}
+{% elif cookiecutter.project_license == "EUDatagrid" -%}
 EU DataGrid Software License Copyright (c) 2001 EU DataGrid. All rights reserved.
 
 This software includes voluntary contributions made to the EU DataGrid. For more information on the EU DataGrid, please see http://www.eu-datagrid.org/.
@@ -5304,7 +5304,7 @@ Installation, use, reproduction, display, modification and redistribution of thi
    6. LIMITATION OF LIABILITY
 
 THE EU DATAGRID AND CONTRIBUTORS SHALL HAVE NO LIABILITY TO LICENSEE OR OTHER PERSONS FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, LOSS OF USE, DATA OR PROFITS, OR BUSINESS INTERRUPTION, HOWEVER CAUSED AND ON ANY THEORY OF CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR OTHERWISE, ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-{%- elif cookiecutter.project_license == "EUPL-1.1" -%}
+{% elif cookiecutter.project_license == "EUPL-1.1" -%}
 European Union Public Licence V. 1.1 EUPL (c) the European Community 2007
 
 This European Union Public Licence (the "EUPL") applies to the Work or Software (as defined below) which is provided under the terms of this Licence. Any use of the Work, other than as authorised under this Licence is prohibited (to the extent such use is covered by a right of the copyright holder of the Work).
@@ -5466,7 +5466,7 @@ Appendix
    - Eclipse Public License v. 1.0
 
    - Cecill v. 2.0
-{%- elif cookiecutter.project_license == "EUPL-1.2" -%}
+{% elif cookiecutter.project_license == "EUPL-1.2" -%}
 European Union Public Licence v. 1.2
 
 EUPL © the European Union 2007, 2016
@@ -5646,13 +5646,13 @@ Appendix
 The European Commission may update this Appendix to later versions of the above licences without producing a new version of the EUPL, as long as they provide the rights granted in Article 2 of this Licence and protect the covered Source Code from exclusive appropriation.
 
 All other changes or additions to this Appendix require the production of a new EUPL version.
-{%- elif cookiecutter.project_license == "Fair" -%}
+{% elif cookiecutter.project_license == "Fair" -%}
 Fair License <Copyright Information>
 
 Usage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.
 
 DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
-{%- elif cookiecutter.project_license == "Frameworx-1.0" -%}
+{% elif cookiecutter.project_license == "Frameworx-1.0" -%}
 THE FRAMEWORX OPEN LICENSE 1.0
 
 This License Agreement, The Frameworx Open License 1.0, has been entered into between The Frameworx Company and you, the licensee hereunder, effective as of Your acceptance of the Frameworx Code Base or an Downstream Distribution (each as defined below).
@@ -5722,9 +5722,9 @@ The Frameworx Company and You have agreed as follows:
    7. License Violation. The License, and all of your rights thereunder, shall be deemed automatically terminated and void as of any Downstream Distribution directly or indirectly made or facilitated by You that violates the provisions of this License Agreement, provided, however, that this License Agreement shall survive any such termination in order to remedy the effects of such violation. This License Agreement shall be binding on the legal successors and assigns of the parties hereto.
 
    Your agreement to the foregoing as of the date hereof has been evidenced by your acceptance of the relevant software distribution hereunder. (C) THE FRAMEWORX COMPANY 2003
-{%- elif cookiecutter.project_license == "FSFAP" -%}
+{% elif cookiecutter.project_license == "FSFAP" -%}
 Copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the copyright notice and this notice are preserved. This file is offered as-is, without any warranty.
-{%- elif cookiecutter.project_license == "FTL" -%}
+{% elif cookiecutter.project_license == "FTL" -%}
 The FreeType Project LICENSE
 
 2006-Jan-27 Copyright 1996-2002, 2006 by David Turner, Robert Wilhelm, and Werner Lemberg
@@ -5800,7 +5800,7 @@ Legal Terms
    Our home page can be found at
 
    http://www.freetype.org --- end of FTL.TXT ---
-{%- elif cookiecutter.project_license == "GFDL-1.1-only" -%}
+{% elif cookiecutter.project_license == "GFDL-1.1-only" -%}
 GNU Free Documentation License
 
 Version 1.1, March 2000
@@ -5932,7 +5932,7 @@ Copyright (c) YEAR YOUR NAME. Permission is granted to copy, distribute and/or m
 If you have no Invariant Sections, write "with no Invariant Sections" instead of saying which ones are invariant. If you have no Front-Cover Texts, write "no Front-Cover Texts" instead of "Front-Cover Texts being LIST"; likewise for Back-Cover Texts.
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
-{%- elif cookiecutter.project_license == "GFDL-1.1-or-later" -%}
+{% elif cookiecutter.project_license == "GFDL-1.1-or-later" -%}
 GNU Free Documentation License
 
 Version 1.1, March 2000
@@ -6064,7 +6064,7 @@ Copyright (c) YEAR YOUR NAME. Permission is granted to copy, distribute and/or m
 If you have no Invariant Sections, write "with no Invariant Sections" instead of saying which ones are invariant. If you have no Front-Cover Texts, write "no Front-Cover Texts" instead of "Front-Cover Texts being LIST"; likewise for Back-Cover Texts.
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
-{%- elif cookiecutter.project_license == "GFDL-1.2-only" -%}
+{% elif cookiecutter.project_license == "GFDL-1.2-only" -%}
 GNU Free Documentation License
 
 Version 1.2, November 2002
@@ -6208,7 +6208,7 @@ with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts 
 If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation.
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
-{%- elif cookiecutter.project_license == "GFDL-1.2-or-later" -%}
+{% elif cookiecutter.project_license == "GFDL-1.2-or-later" -%}
 GNU Free Documentation License
 
 Version 1.2, November 2002
@@ -6352,7 +6352,7 @@ with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts 
 If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation.
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
-{%- elif cookiecutter.project_license == "GFDL-1.3-only" -%}
+{% elif cookiecutter.project_license == "GFDL-1.3-only" -%}
 GNU Free Documentation License
 
 Version 1.3, 3 November 2008 Copyright (C) 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc. <http://fsf.org/>
@@ -6512,7 +6512,7 @@ with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts 
 If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation.
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
-{%- elif cookiecutter.project_license == "GFDL-1.3-or-later" -%}
+{% elif cookiecutter.project_license == "GFDL-1.3-or-later" -%}
 GNU Free Documentation License
 
 Version 1.3, 3 November 2008 Copyright (C) 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc. <http://fsf.org/>
@@ -6672,7 +6672,7 @@ with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts 
 If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation.
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
-{%- elif cookiecutter.project_license == "gnuplot" -%}
+{% elif cookiecutter.project_license == "gnuplot" -%}
 Copyright 1986 - 1993, 1998, 2004 Thomas Williams, Colin Kelley
 
 Permission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.
@@ -6690,7 +6690,7 @@ Permission to modify the software is granted, but not the right to distribute th
 Permission to distribute the released version of the source code along with corresponding source modifications in the form of a patch file is granted with same provisions 2 through 4 for binary distributions.
 
 This software is provided "as is" without express or implied warranty to the extent permitted by applicable law.
-{%- elif cookiecutter.project_license == "GPL-2.0-only" -%}
+{% elif cookiecutter.project_license == "GPL-2.0-only" -%}
 GNU GENERAL PUBLIC LICENSE
 
 Version 2, June 1991
@@ -6812,7 +6812,7 @@ You should also get your employer (if you work as a programmer) or your school, 
 Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (which makes passes at compilers) written by James Hacker.
 
 <signature of Ty Coon >, 1 April 1989 Ty Coon, President of Vice This General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License.
-{%- elif cookiecutter.project_license == "GPL-2.0-or-later" -%}
+{% elif cookiecutter.project_license == "GPL-2.0-or-later" -%}
 GNU GENERAL PUBLIC LICENSE
 
 Version 2, June 1991
@@ -6934,7 +6934,7 @@ You should also get your employer (if you work as a programmer) or your school, 
 Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovision' (which makes passes at compilers) written by James Hacker.
 
 <signature of Ty Coon>, 1 April 1989 Ty Coon, President of Vice This General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License.
-{%- elif cookiecutter.project_license == "GPL-3.0-only" -%}
+{% elif cookiecutter.project_license == "GPL-3.0-only" -%}
 GNU GENERAL PUBLIC LICENSE
 
 Version 3, 29 June 2007
@@ -7186,7 +7186,7 @@ The hypothetical commands `show w' and `show c' should show the appropriate part
 You should also get your employer (if you work as a programmer) or school, if any, to sign a "copyright disclaimer" for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <https://www.gnu.org/licenses/>.
 
 The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <https://www.gnu.org/ licenses /why-not-lgpl.html>.
-{%- elif cookiecutter.project_license == "GPL-3.0-or-later" -%}
+{% elif cookiecutter.project_license == "GPL-3.0-or-later" -%}
 GNU GENERAL PUBLIC LICENSE
 
 Version 3, 29 June 2007
@@ -7438,11 +7438,11 @@ The hypothetical commands `show w' and `show c' should show the appropriate part
 You should also get your employer (if you work as a programmer) or school, if any, to sign a "copyright disclaimer" for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <https://www.gnu.org/licenses/>.
 
 The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <https://www.gnu.org/ licenses /why-not-lgpl.html>.
-{%- elif cookiecutter.project_license == "HPND" -%}
+{% elif cookiecutter.project_license == "HPND" -%}
 Historical Permission Notice and Disclaimer <copyright notice>
 
 Permission to use, copy, modify and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies, and that both that the copyright notice and this permission notice appear in supporting documentation , and that the name of <copyright holder> <or related entities> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission . <copyright holder> makes no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty. <copyright holder> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS . IN NO EVENT SHALL <copyright holder> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-{%- elif cookiecutter.project_license == "IJG" -%}
+{% elif cookiecutter.project_license == "IJG" -%}
 Independent JPEG Group License LEGAL ISSUES
 
 In plain English:
@@ -7484,7 +7484,7 @@ The IJG distribution formerly included code to read and write GIF files. To avoi
 We are required to state that
 
 "The Graphics Interchange Format(c) is the Copyright property of CompuServe Incorporated. GIF(sm) is a Service Mark property of CompuServe Incorporated."
-{%- elif cookiecutter.project_license == "iMatix" -%}
+{% elif cookiecutter.project_license == "iMatix" -%}
 The SFL License Agreement
 
 This license agreement covers your use of the iMatix STANDARD FUNCTION LIBRARY (SFL), its source code, documentation, and executable files, hereinafter referred to as "the Product".
@@ -7530,7 +7530,7 @@ Rights Of Distribution
 Disclaimer Of Warranty
 
    The Product is provided as free software, in the hope that it will be useful. It is provided "as-is", without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the Product is with you. Should the Product prove defective, the full cost of repair, servicing, or correction lies with you.
-{%- elif cookiecutter.project_license == "Imlib2" -%}
+{% elif cookiecutter.project_license == "Imlib2" -%}
 Imlib2 License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -7540,7 +7540,7 @@ The above copyright notice and this permission notice shall be included in all c
 Please see the COPYING-PLAIN for a plain-english explanation of this notice and its intent.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-{%- elif cookiecutter.project_license == "Intel" -%}
+{% elif cookiecutter.project_license == "Intel" -%}
 Intel Open Source License Copyright (c) 1996-2000 Intel Corporation
 
 All rights reserved.
@@ -7556,7 +7556,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE INTEL OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 EXPORT LAWS: THIS LICENSE ADDS NO RESTRICTIONS TO THE EXPORT LAWS OF YOUR JURISDICTION. It is licensee's responsibility to comply with any export regulations applicable in licensee's jurisdiction. Under CURRENT (May 2000) U.S. export regulations this software is eligible for export from the U.S. and can be downloaded by or otherwise exported or reexported worldwide EXCEPT to U.S. embargoed destinations which include Cuba, Iraq, Libya, North Korea, Iran, Syria, Sudan, Afghanistan and any other country to which the U.S. has embargoed goods and services.
-{%- elif cookiecutter.project_license == "IPA" -%}
+{% elif cookiecutter.project_license == "IPA" -%}
 IPA Font License Agreement v1.0
 
 The Licensor provides the Licensed Program (as defined in Article 1 below) under the terms of this license agreement ("Agreement"). Any use, reproduction or distribution of the Licensed Program, or any exercise of rights under this Agreement by a Recipient (as defined in Article 1 below) constitutes the Recipient's acceptance of this Agreement.
@@ -7640,7 +7640,7 @@ Article 5 (Governing Law)
    1. IPA may publish revised and/or new versions of this License. In such an event, the Recipient may select either this Agreement or any subsequent version of the Agreement in using, conducting the Reproduction and Other Exploitation of, or Redistributing the Licensed Program or a Derived Program. Other matters not specified above shall be subject to the Copyright Law of Japan and other related laws and regulations of Japan.
 
    2. This Agreement shall be construed under the laws of Japan.
-{%- elif cookiecutter.project_license == "IPL-1.0" -%}
+{% elif cookiecutter.project_license == "IPL-1.0" -%}
 IBM Public License Version 1.0
 
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS IBM
@@ -7768,7 +7768,7 @@ OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
    IBM may publish new versions (including revisions) of this Agreement from time to time. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. No one other than IBM has the right to modify this Agreement. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
 
    This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
-{%- elif cookiecutter.project_license == "ISC" -%}
+{% elif cookiecutter.project_license == "ISC" -%}
 ISC License Copyright (c) 2004-2010 by Internet Systems Consortium, Inc. ("ISC")
 
 Copyright (c) 1995-2003 by Internet Software Consortium
@@ -7776,7 +7776,7 @@ Copyright (c) 1995-2003 by Internet Software Consortium
 Permission to use, copy, modify, and /or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
 THE SOFTWARE IS PROVIDED "AS IS" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-{%- elif cookiecutter.project_license == "LGPL-2.0-only" -%}
+{% elif cookiecutter.project_license == "LGPL-2.0-only" -%}
 GNU LIBRARY GENERAL PUBLIC LICENSE
 
 Version 2, June 1991 Copyright (C) 1991 Free Software Foundation, Inc.
@@ -7952,7 +7952,7 @@ signature of Ty Coon, 1 April 1990
 Ty Coon, President of Vice
 
 That's all there is to it!
-{%- elif cookiecutter.project_license == "LGPL-2.0-or-later" -%}
+{% elif cookiecutter.project_license == "LGPL-2.0-or-later" -%}
 GNU LIBRARY GENERAL PUBLIC LICENSE
 
 Version 2, June 1991 Copyright (C) 1991 Free Software Foundation, Inc.
@@ -8128,7 +8128,7 @@ signature of Ty Coon, 1 April 1990
 Ty Coon, President of Vice
 
 That's all there is to it!
-{%- elif cookiecutter.project_license == "LGPL-2.1-only" -%}
+{% elif cookiecutter.project_license == "LGPL-2.1-only" -%}
 GNU LESSER GENERAL PUBLIC LICENSE
 
 Version 2.1, February 1999
@@ -8308,7 +8308,7 @@ by James Random Hacker.
 Ty Coon, President of Vice
 
 That's all there is to it!
-{%- elif cookiecutter.project_license == "LGPL-2.1-or-later" -%}
+{% elif cookiecutter.project_license == "LGPL-2.1-or-later" -%}
 GNU LESSER GENERAL PUBLIC LICENSE
 
 Version 2.1, February 1999
@@ -8490,7 +8490,7 @@ by James Random Hacker.
 Ty Coon, President of Vice
 
 That's all there is to it!
-{%- elif cookiecutter.project_license == "LGPL-3.0-only" -%}
+{% elif cookiecutter.project_license == "LGPL-3.0-only" -%}
 GNU LESSER GENERAL PUBLIC LICENSE
 
 Version 3, 29 June 2007
@@ -8580,7 +8580,7 @@ This version of the GNU Lesser General Public License incorporates the terms and
    Each version is given a distinguishing version number. If the Library as you received it specifies that a certain numbered version of the GNU Lesser General Public License "or any later version" applies to it, you have the option of following the terms and conditions either of that published version or of any later version published by the Free Software Foundation. If the Library as you received it does not specify a version number of the GNU Lesser General Public License, you may choose any version of the GNU Lesser General Public License ever published by the Free Software Foundation.
 
    If the Library as you received it specifies that a proxy can decide whether future versions of the GNU Lesser General Public License shall apply, that proxy's public statement of acceptance of any version is permanent authorization for you to choose that version for the Library.
-{%- elif cookiecutter.project_license == "LGPL-3.0-or-later" -%}
+{% elif cookiecutter.project_license == "LGPL-3.0-or-later" -%}
 GNU LESSER GENERAL PUBLIC LICENSE
 
 Version 3, 29 June 2007
@@ -8670,7 +8670,7 @@ This version of the GNU Lesser General Public License incorporates the terms and
    Each version is given a distinguishing version number. If the Library as you received it specifies that a certain numbered version of the GNU Lesser General Public License "or any later version" applies to it, you have the option of following the terms and conditions either of that published version or of any later version published by the Free Software Foundation. If the Library as you received it does not specify a version number of the GNU Lesser General Public License, you may choose any version of the GNU Lesser General Public License ever published by the Free Software Foundation.
 
    If the Library as you received it specifies that a proxy can decide whether future versions of the GNU Lesser General Public License shall apply, that proxy's public statement of acceptance of any version is permanent authorization for you to choose that version for the Library.
-{%- elif cookiecutter.project_license == "LiLiQ-P-1.1" -%}
+{% elif cookiecutter.project_license == "LiLiQ-P-1.1" -%}
 Licence Libre du Québec – Permissive (LiLiQ-P)
 
 Version 1.1
@@ -8772,7 +8772,7 @@ Version 1.1
    Dans la mesure où le concédant est un ministère, un organisme public ou une personne morale de droit public, créés en vertu d'une loi de l'Assemblée nationale du Québec, la licence est régie par le droit applicable au Québec et en cas de contestation, les tribunaux du Québec seront seuls compétents.
 
    La présente licence peut être distribuée sans conditions particulières. Toutefois, une version modifiée doit être distribuée sous un nom différent. Toute référence au Centre de services partagés du Québec, et, le cas échéant, ses ayant cause, doit être retirée, autre que celle permettant d'identifier la provenance de la licence.
-{%- elif cookiecutter.project_license == "LiLiQ-R-1.1" -%}
+{% elif cookiecutter.project_license == "LiLiQ-R-1.1" -%}
 Licence Libre du Québec – Réciprocité (LiLiQ-R)
 
 Version 1.1
@@ -8904,7 +8904,7 @@ Version 1.1
    Dans la mesure où le concédant est un ministère, un organisme public ou une personne morale de droit public, créés en vertu d'une loi de l'Assemblée nationale du Québec, la licence est régie par le droit applicable au Québec et en cas de contestation, les tribunaux du Québec seront seuls compétents.
 
    La présente licence peut être distribuée sans conditions particulières. Toutefois, une version modifiée doit être distribuée sous un nom différent. Toute référence au Centre de services partagés du Québec, et, le cas échéant, ses ayant droit, doit être retirée, autre que celle permettant d'identifier la provenance de la licence.
-{%- elif cookiecutter.project_license == "LiLiQ-Rplus-1.1" -%}
+{% elif cookiecutter.project_license == "LiLiQ-Rplus-1.1" -%}
 Licence Libre du Québec – Réciprocité forte (LiLiQ-R+)
 
 Version 1.1
@@ -9022,7 +9022,7 @@ Version 1.1
    Dans la mesure où le concédant est un ministère, un organisme public ou une personne morale de droit public, créés en vertu d'une loi de l'Assemblée nationale du Québec, la licence est régie par le droit applicable au Québec et en cas de contestation, les tribunaux du Québec seront seuls compétents.
 
    La présente licence peut être distribuée sans conditions particulières. Toutefois, une version modifiée doit être distribuée sous un nom différent. Toute référence au Centre de services partagés du Québec, et, le cas échéant, ses ayant cause, doit être retirée, autre que celle permettant d'identifier la provenance de la licence.
-{%- elif cookiecutter.project_license == "LPL-1.02" -%}
+{% elif cookiecutter.project_license == "LPL-1.02" -%}
 Lucent Public License Version 1.02
 
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
@@ -9114,7 +9114,7 @@ THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS PUBLIC LICENSE ("AG
    LUCENT may publish new versions (including revisions) of this Agreement from time to time. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. No one other than LUCENT has the right to modify this Agreement. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
 
    This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
-{%- elif cookiecutter.project_license == "LPL-1.0" -%}
+{% elif cookiecutter.project_license == "LPL-1.0" -%}
 Lucent Public License Version 1.0
 
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
@@ -9202,7 +9202,7 @@ THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS PUBLIC LICENSE ("AG
    <OWNER> may publish new versions (including revisions) of this Agreement from time to time. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. No one other than <OWNER> has the right to modify this Agreement. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
 
    This Agreement is governed by the laws of the State of <STATE> and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
-{%- elif cookiecutter.project_license == "LPPL-1.2" -%}
+{% elif cookiecutter.project_license == "LPPL-1.2" -%}
 The LaTeX Project Public License
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -9360,7 +9360,7 @@ in that place. In the absence of an unequivocal list it might be impossible for 
 Noting Exceptional Files If The Program contains any files bearing additional conditions on modification, or on distribution of modified versions, of those files (other than those listed in `Additional Conditions on LaTeX Software Files'), then it is recommended that The Program contain a prominent file that defines the exceptional conditions, and either lists the exceptional files or defines one or more categories of exceptional files.
 
 Files containing the text of a license (such as this file) are often examples of files bearing more restrictive conditions on modification. LaTeX configuration files (with filename extension `.cfg') are examples of files bearing less restrictive conditions on the distribution of a modified version of the file. The additional conditions on LaTeX software given above are examples of declaring a category of files bearing exceptional additional conditions.
-{%- elif cookiecutter.project_license == "LPPL-1.3a" -%}
+{% elif cookiecutter.project_license == "LPPL-1.3a" -%}
 The LaTeX Project Public License
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -9564,7 +9564,7 @@ The LPPL requires that distributions of the Work contain all the files of the Wo
 % This work consists of all files listed in manifest.txt.
 
 in that place. In the absence of an unequivocal list it might be impossible for the licensee to determine what is considered by you to comprise the Work and, in such a case, the licensee would be entitled to make reasonable conjectures as to which files comprise the Work.
-{%- elif cookiecutter.project_license == "LPPL-1.3c" -%}
+{% elif cookiecutter.project_license == "LPPL-1.3c" -%}
 The LaTeX Project Public License
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -9776,13 +9776,13 @@ The LPPL requires that distributions of the Work contain all the files of the Wo
 % This work consists of all files listed in manifest.txt.
 
 in that place. In the absence of an unequivocal list it might be impossible for the licensee to determine what is considered by you to comprise the Work and, in such a case, the licensee would be entitled to make reasonable conjectures as to which files comprise the Work.
-{%- elif cookiecutter.project_license == "MirOS" -%}
+{% elif cookiecutter.project_license == "MirOS" -%}
 The MirOS Licence Copyright [YEAR] [NAME] [EMAIL]
 
 Provided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.
 
 This work is provided "AS IS" and WITHOUT WARRANTY of any kind, to the utmost extent permitted by applicable law, neither express nor implied; without malicious intent or gross negligence. In no event may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or other issues arising in any way out of dealing in the work, even if advised of the possibility of such damage or existence of a defect, except proven that it results out of said person's immediate fault when using the work as intended.
-{%- elif cookiecutter.project_license == "MIT" -%}
+{% elif cookiecutter.project_license == "MIT" -%}
 MIT License Copyright (c) <year> <copyright holders>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -9790,7 +9790,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice (including the next paragraph) shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-{%- elif cookiecutter.project_license == "Motosoto" -%}
+{% elif cookiecutter.project_license == "Motosoto" -%}
 MOTOSOTO OPEN SOURCE LICENSE - Version 0.9.1
 
 This Motosoto Open Source License (the "License") applies to "Community Portal Server" and related software products as well as any updatesor maintenance releases of that software ("Motosoto Products") that are distributed by Motosoto.Com B.V. ("Licensor"). Any Motosoto Product licensed pursuant to this License is a "Licensed Product." Licensed Product, in its entirety, is protected by Dutch copyright law. This License identifies the terms under which you may use, copy, distribute or modify Licensed Product and has been submitted to the Open Software Initiative (OSI) for approval. Preamble
@@ -9900,7 +9900,7 @@ License Terms
    10. Limitation of Liability.
 
 UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE LICENSOR, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF LICENSED PRODUCT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY
-{%- elif cookiecutter.project_license == "MPL-1.0" -%}
+{% elif cookiecutter.project_license == "MPL-1.0" -%}
 MOZILLA PUBLIC LICENSE
 
 Version 1.0
@@ -10040,7 +10040,7 @@ Version 1.0
 Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
 
 The Original Code is _____ . The Initial Developer of the Original Code is _____ . Portions created by _____ are Copyright (C) _____ . All Rights Reserved. Contributor(s): _____ ."
-{%- elif cookiecutter.project_license == "MPL-1.1" -%}
+{% elif cookiecutter.project_license == "MPL-1.1" -%}
 Mozilla Public License Version 1.1
 
    1. Definitions.
@@ -10204,7 +10204,7 @@ Contributor(s): ______________________________________ .
 Alternatively, the contents of this file may be used under the terms of the _____ license (the " [___] License"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the MPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the MPL or the [___] License."
 
 NOTE: The text of this Exhibit A may differ slightly from the text of the notices in the Source Code files of the Original Code. You should use the text of this Exhibit A rather than the text found in the Original Code Source Code for Your Modifications.
-{%- elif cookiecutter.project_license == "MPL-2.0" -%}
+{% elif cookiecutter.project_license == "MPL-2.0" -%}
 Mozilla Public License Version 2.0
 
    1. Definitions
@@ -10368,7 +10368,7 @@ You may add additional accurate notices of copyright ownership.
 Exhibit B - "Incompatible With Secondary Licenses" Notice
 
 This Source Code Form is "Incompatible With Secondary Licenses", as defined by the Mozilla Public License, v. 2.0.
-{%- elif cookiecutter.project_license == "MPL-2.0-no-copyleft-exception" -%}
+{% elif cookiecutter.project_license == "MPL-2.0-no-copyleft-exception" -%}
 Mozilla Public License Version 2.0
 
    1. Definitions
@@ -10532,7 +10532,7 @@ You may add additional accurate notices of copyright ownership.
 Exhibit B - "Incompatible With Secondary Licenses" Notice
 
 This Source Code Form is "Incompatible With Secondary Licenses", as defined by the Mozilla Public License, v. 2.0.
-{%- elif cookiecutter.project_license == "MS-PL" -%}
+{% elif cookiecutter.project_license == "MS-PL" -%}
 Microsoft Public License (Ms-PL)
 
 This license governs use of the accompanying software. If you use the software, you accept this license. If you do not accept the license, do not use the software.
@@ -10558,7 +10558,7 @@ This license governs use of the accompanying software. If you use the software, 
       (D) If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license.
 
       (E) The software is licensed "as-is." You bear the risk of using it. The contributors give no express warranties, guarantees, or conditions. You may have additional consumer rights under your local laws which this license cannot change. To the extent permitted under your local laws, the contributors exclude the implied warranties of merchantability, fitness for a particular purpose and non-infringement.
-{%- elif cookiecutter.project_license == "MS-RL" -%}
+{% elif cookiecutter.project_license == "MS-RL" -%}
 Microsoft Reciprocal License (Ms-RL)
 
 This license governs use of the accompanying software. If you use the software, you accept this license. If you do not accept the license, do not use the software.
@@ -10592,7 +10592,7 @@ This license governs use of the accompanying software. If you use the software, 
       (E) If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license.
 
       (F) The software is licensed "as-is." You bear the risk of using it. The contributors give no express warranties, guarantees, or conditions. You may have additional consumer rights under your local laws which this license cannot change. To the extent permitted under your local laws, the contributors exclude the implied warranties of merchantability, fitness for a particular purpose and non-infringement.
-{%- elif cookiecutter.project_license == "MulanPSL-2.0" -%}
+{% elif cookiecutter.project_license == "MulanPSL-2.0" -%}
 木兰宽松许可证, 第2版 木兰宽松许可证， 第2版
 
 2020年1月 http://license.coscl.org.cn/MulanPSL2
@@ -10734,7 +10734,7 @@ EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
 MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
 
 See the Mulan PSL v2 for more details.
-{%- elif cookiecutter.project_license == "Multics" -%}
+{% elif cookiecutter.project_license == "Multics" -%}
 Multics License Historical Background
 
 This edition of the Multics software materials and documentation is provided and donated to Massachusetts Institute of Technology by Group BULL including BULL HN Information Systems Inc. as a contribution to computer science knowledge. This donation is made also to give evidence of the common contributions of Massachusetts Institute of Technology, Bell Laboratories, General Electric, Honeywell Information Systems Inc., Honeywell BULL Inc., Groupe BULL and BULL HN Information Systems Inc. to the development of this operating system. Multics development was initiated by Massachusetts Institute of Technology Project MAC (1963-1970), renamed the MIT Laboratory for Computer Science and Artificial Intelligence in the mid 1970s, under the leadership of Professor Fernando Jose Corbato. Users consider that Multics provided the best software architecture for managing computer hardware properly and for executing programs. Many subsequent operating systems incorporated Multics principles. Multics was distributed in 1975 to 2000 by Group Bull in Europe, and in the U.S. by Bull HN Information Systems Inc., as successor in interest by change in name only to Honeywell Bull Inc. and Honeywell Information Systems Inc. . -----------------------------------------------------------
@@ -10744,7 +10744,7 @@ Permission to use, copy, modify, and distribute these programs and their documen
 Copyright 2006 by BULL HN Information Systems Inc.
 
 Copyright 2006 by Bull SAS All Rights Reserved
-{%- elif cookiecutter.project_license == "NASA-1.3" -%}
+{% elif cookiecutter.project_license == "NASA-1.3" -%}
 NASA OPEN SOURCE AGREEMENT VERSION 1.3
 
 THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE, REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY"). THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES, DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
@@ -10882,7 +10882,7 @@ Government Agency Point of Contact for Original Software: _______________
       E. Binding Authority: By accepting and using the Subject Software under this Agreement, a Recipient affirms its authority to bind the Recipient to all terms and conditions of this Agreement and that that Recipient hereby agrees to all terms and conditions herein.
 
       F. Point of Contact: Any Recipient contact with Government Agency is to be directed to the designated representative as follows: _______________ .
-{%- elif cookiecutter.project_license == "Naumen" -%}
+{% elif cookiecutter.project_license == "Naumen" -%}
 NAUMEN Public License This software is Copyright (c) NAUMEN (tm) and Contributors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -10902,7 +10902,7 @@ Disclaimer:
 THIS SOFTWARE IS PROVIDED BY NAUMEN "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL NAUMEN OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 This software consists of contributions made by NAUMEN and Contributors. Specific attributions are listed in the accompanying credits file.
-{%- elif cookiecutter.project_license == "NCSA" -%}
+{% elif cookiecutter.project_license == "NCSA" -%}
 University of Illinois/NCSA Open Source License Copyright (c) <Year> <Owner Organization Name>. All rights reserved.
 
 Developed by: 
@@ -10922,7 +10922,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
    * Neither the names of <Name of Development Group, Name of Institution> , nor the names of its contributors may be used to endorse or promote products derived from this Software without specific prior written permission.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.
-{%- elif cookiecutter.project_license == "NGPL" -%}
+{% elif cookiecutter.project_license == "NGPL" -%}
 NETHACK GENERAL PUBLIC LICENSE (Copyright 1989 M. Stephenson)
 
 (Based on the BISON general public license, copyright 1988 Richard M. Stallman)
@@ -10962,7 +10962,7 @@ COPYING POLICIES
    4. You may not copy, sublicense, distribute or transfer NetHack except as expressly provided under this License Agreement. Any attempt otherwise to copy, sublicense, distribute or transfer NetHack is void and your rights to use the program under this License agreement shall be automatically terminated. However, parties who have received computer software programs from you with this License Agreement will not have their licenses terminated so long as such parties remain in full compliance.
 
 Stated plainly: You are permitted to modify NetHack, or otherwise use parts of NetHack, provided that you comply with the conditions specified above; in particular, your modified NetHack or program containing parts of NetHack must remain freely available as provided in this License Agreement. In other words, go ahead and share NetHack, but don't try to stop anyone else from sharing it farther.
-{%- elif cookiecutter.project_license == "Nokia" -%}
+{% elif cookiecutter.project_license == "Nokia" -%}
 Nokia Open Source License (NOKOS License)
 
 Version 1.0a 1. DEFINITIONS.
@@ -11114,7 +11114,7 @@ ______________________________________.
 Copyright © <year> Nokia and others. All Rights Reserved.
 
 Contributor(s): ______________________________________.
-{%- elif cookiecutter.project_license == "NOSL" -%}
+{% elif cookiecutter.project_license == "NOSL" -%}
 NETIZEN OPEN SOURCE LICENSE
 
 Version 1.0
@@ -11292,7 +11292,7 @@ Contributor(s): ______________________________________.
 Alternatively, the contents of this file may be used under the terms of the _____ license (the "[___] License"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the NOSL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the NOSL or the [___] License."
 
 [NOTE: The text of this Exhibit A may differ slightly from the text of the notices in the Source Code files of the Original Code. You should use the text of this Exhibit A rather than the text found in the Original Code Source Code for Your Modifications.]
-{%- elif cookiecutter.project_license == "NPL-1.0" -%}
+{% elif cookiecutter.project_license == "NPL-1.0" -%}
 NETSCAPE PUBLIC LICENSE
 
 Version 1.0
@@ -11444,7 +11444,7 @@ The Initial Developer of the Original Code is Netscape Communications Corporatio
 Contributor(s): ______________________________________."
 
 [NOTE: The text of this Exhibit A may differ slightly from the text of the notices in the Source Code files of the Original Code. This is due to time constraints encountered in simultaneously finalizing the License and in preparing the Original Code for release. You should use the text of this Exhibit A rather than the text found in the Original Code Source Code for Your Modifications.]
-{%- elif cookiecutter.project_license == "NPL-1.1" -%}
+{% elif cookiecutter.project_license == "NPL-1.1" -%}
 Netscape Public LIcense version 1.1
 
 AMENDMENTS
@@ -11664,7 +11664,7 @@ Contributor(s): ______________________________________.
 Alternatively, the contents of this file may be used under the terms of the _____ license (the "[___] License"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the MPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the MPL or the [___] License."
 
 NOTE: The text of this Exhibit A may differ slightly from the text of the notices in the Source Code files of the Original Code. You should use the text of this Exhibit A rather than the text found in the Original Code Source Code for Your Modifications.
-{%- elif cookiecutter.project_license == "NPOSL-3.0" -%}
+{% elif cookiecutter.project_license == "NPOSL-3.0" -%}
 Non-Profit Open Software License 3.0
 
 This Non-Profit Open Software License ("Non-Profit OSL") version 3.0 (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following licensing notice adjacent to the copyright notice for the Original Work:
@@ -11724,11 +11724,11 @@ Licensed under the Non-Profit Open Software License version 3.0
       (d) The proviso in Section 1(c) of this License now refers to this "Non-Profit Open Software License" rather than the "Open Software License". You may distribute or communicate the Original Work or Derivative Works thereof under this Non-Profit OSL 3.0 license only if You make the representation and declaration in paragraph (a) of this Section 17. Otherwise, You shall distribute or communicate the Original Work or Derivative Works thereof only under the OSL 3.0 license and You shall publish clear licensing notices so stating. Also by way of clarification, this License does not authorize You to distribute or communicate works under this Non-Profit OSL 3.0 if You received them under the original OSL 3.0 license.
 
       (e) Original Works licensed under this license shall reference "Non-Profit OSL 3.0" in licensing notices to distinguish them from works licensed under the original OSL 3.0 license.
-{%- elif cookiecutter.project_license == "NTP" -%}
+{% elif cookiecutter.project_license == "NTP" -%}
 NTP License (NTP) Copyright (c) (CopyrightHoldersName) (From 4-digit-year)-(To 4-digit-year)
 
 Permission to use, copy, modify, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appears in all copies and that both the copyright notice and this permission notice appear in supporting documentation, and that the name (TrademarkedName) not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. (TrademarkedName) makes no representations about the suitability this software for any purpose. It is provided "as is" without express or implied warranty.
-{%- elif cookiecutter.project_license == "OCLC-2.0" -%}
+{% elif cookiecutter.project_license == "OCLC-2.0" -%}
 OCLC Research Public License 2.0
 
 Terms & Conditions Of Use
@@ -11810,7 +11810,7 @@ The provisions of this License are deemed to be severable, and the invalidity or
 The Original Contributor from time to time may change this License, and the amended license will apply to all copies of the Program downloaded after the new license is posted. This License grants only the rights expressly stated herein and provides you with no implied rights or licenses to the intellectual property of any Contributor.
 
 This License is the complete and exclusive statement of the agreement between the parties concerning the subject matter hereof and may not be amended except by the written agreement of the parties. This License shall be governed by and construed in accordance with the laws of the State of Ohio and the United States of America, without regard to principles of conflicts of law.
-{%- elif cookiecutter.project_license == "ODbL-1.0" -%}
+{% elif cookiecutter.project_license == "ODbL-1.0" -%}
 ODC Open Database License (ODbL) Preamble
 
 The Open Database License (ODbL) is a license agreement intended to allow users to freely share, modify, and use this Database while maintaining this same freedom for others. Many databases are covered by copyright, and therefore this document licenses these rights. Some jurisdictions, mainly in the European Union, have specific rights that cover databases, and so the ODbL addresses these rights, too. Finally, the ODbL is also an agreement in contract for users of this Database to act in certain ways in return for accessing this Database.
@@ -12056,7 +12056,7 @@ agree as follows:
    10.3 If You are in breach of the terms of this License, You will not be entitled to rely on the terms of this License or to complain of any breach by the Licensor.
 
    10.4 Choice of law. This License takes effect in and will be governed by the laws of the relevant jurisdiction in which the License terms are sought to be enforced. If the standard suite of rights granted under applicable copyright law and Database Rights in the relevant jurisdiction includes additional rights not granted under this License, these additional rights are granted in this License in order to meet the terms of this License.
-{%- elif cookiecutter.project_license == "OFL-1.0" -%}
+{% elif cookiecutter.project_license == "OFL-1.0" -%}
 SIL OPEN FONT LICENSE
 
 Version 1.0 - 22 November 2005
@@ -12110,7 +12110,7 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
-{%- elif cookiecutter.project_license == "OFL-1.1" -%}
+{% elif cookiecutter.project_license == "OFL-1.1" -%}
 Copyright (c) <dates>, <Copyright Holder> (<URL|email>),
 
 with Reserved Font Name <Reserved Font Name>. This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -12158,7 +12158,7 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
-{%- elif cookiecutter.project_license == "OFL-1.1-no-RFN" -%}
+{% elif cookiecutter.project_license == "OFL-1.1-no-RFN" -%}
 Copyright (c) <dates>, <Copyright Holder> (<URL|email>). This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL SIL OPEN FONT LICENSE
@@ -12204,7 +12204,7 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
-{%- elif cookiecutter.project_license == "OFL-1.1-RFN" -%}
+{% elif cookiecutter.project_license == "OFL-1.1-RFN" -%}
 Copyright (c) <dates>, <Copyright Holder> (<URL|email>),
 
 with Reserved Font Name <Reserved Font Name>. This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -12252,7 +12252,7 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
-{%- elif cookiecutter.project_license == "OGTSL" -%}
+{% elif cookiecutter.project_license == "OGTSL" -%}
 The Open Group Test Suite License Preamble
 
 The intent of this document is to state the conditions under which a Package may be copied, such that the Copyright Holder maintains some semblance of artistic control over the development of the package, while giving the users of the package the right to use and distribute the Package in a more-or-less customary fashion, plus the right to make reasonable modifications.
@@ -12304,7 +12304,7 @@ Definitions:
    8. The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.
 
    9. THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE. The End
-{%- elif cookiecutter.project_license == "OLDAP-2.3" -%}
+{% elif cookiecutter.project_license == "OLDAP-2.3" -%}
 The OpenLDAP Public License
 
 Version 2.3, 28 July 2000
@@ -12330,7 +12330,7 @@ THIS SOFTWARE IS PROVIDED BY THE OPENLDAP FOUNDATION AND CONTRIBUTORS ``AS IS'' 
 OpenLDAP is a trademark of the OpenLDAP Foundation.
 
 Copyright 1999-2000 The OpenLDAP Foundation, Redwood City, California, USA. All Rights Reserved. Permission to copy and distributed verbatim copies of this document is granted.
-{%- elif cookiecutter.project_license == "OLDAP-2.7" -%}
+{% elif cookiecutter.project_license == "OLDAP-2.7" -%}
 The OpenLDAP Public License
 
 Version 2.7, 7 September 2001
@@ -12352,7 +12352,7 @@ The names of the authors and copyright holders must not be used in advertising o
 OpenLDAP is a registered trademark of the OpenLDAP Foundation.
 
 Copyright 1999-2001 The OpenLDAP Foundation, Redwood City, California, USA. All Rights Reserved. Permission to copy and distribute verbatim copies of this document is granted.
-{%- elif cookiecutter.project_license == "OpenSSL" -%}
+{% elif cookiecutter.project_license == "OpenSSL" -%}
 OpenSSL License Copyright (c) 1998-2008 The OpenSSL Project. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -12398,7 +12398,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 The licence and distribution terms for any publically available version or derivative of this code cannot be changed. i.e. this code cannot simply be copied and put under another distribution licence [including the GNU Public Licence.]
-{%- elif cookiecutter.project_license == "OSET-PL-2.1" -%}
+{% elif cookiecutter.project_license == "OSET-PL-2.1" -%}
 OSET Public License (c) 2015 ALL RIGHTS RESERVED VERSION 2.1 THIS LICENSE DEFINES THE RIGHTS OF USE, REPRODUCTION, DISTRIBUTION, MODIFICATION, AND REDISTRIBUTION OF CERTAIN COVERED SOFTWARE (AS DEFINED BELOW) ORIGINALLY RELEASED BY THE OPEN SOURCE ELECTION TECHNOLOGY FOUNDATION (FORMERLY "THE OSDV FOUNDATION").
 
 ANYONE WHO USES, REPRODUCES, DISTRIBUTES, MODIFIES, OR REDISTRIBUTES THE COVERED SOFTWARE, OR ANY PART THEREOF, IS BY THAT ACTION, ACCEPTING IN FULL THE TERMS CONTAINED IN THIS AGREEMENT. IF YOU DO NOT AGREE TO SUCH TERMS, YOU ARE NOT PERMITTED TO USE THE COVERED SOFTWARE. This license was prepared based on the Mozilla Public License ("MPL"), version 2.0. For annotation of the differences between this license and MPL 2.0, please see the OSET Foundation web site at www.OSETFoundation.org/public-license.
@@ -12604,7 +12604,7 @@ This Source Code Form is subject to the terms of the OSET Public License, v.2.1 
 If it is not possible or desirable to put the Notice in a particular file, then You may include the Notice in a location (e.g., such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice. You may add additional accurate notices of copyright ownership. EXHIBIT B - "Incompatible With Secondary License" Notice
 
 This Source Code Form is "Incompatible With Secondary Licenses", as defined by the OSET Public License, v.2.1.
-{%- elif cookiecutter.project_license == "OSL-1.0" -%}
+{% elif cookiecutter.project_license == "OSL-1.0" -%}
 The Open Software License v. 1.0
 
 This Open Software License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
@@ -12650,7 +12650,7 @@ License Terms
    13) Definition of "You" in This License. "You" throughout this License, whether in upper or lower case, means an individual or a legal entity exercising rights under, and complying with all of the terms of, this License. For legal entities, "You" includes any entity that controls, is controlled by, or is under common control with you. For purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
 
 This license is Copyright (C) 2002 Lawrence E. Rosen. All rights reserved. Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
-{%- elif cookiecutter.project_license == "OSL-1.1" -%}
+{% elif cookiecutter.project_license == "OSL-1.1" -%}
 The Open Software License v. 1.1
 
 This Open Software License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
@@ -12698,7 +12698,7 @@ Licensed under the Open Software License version 1.1
    15) Right to Use. You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises not to interfere with or be responsible for such uses by You.
 
 This license is Copyright (C) 2002 Lawrence E. Rosen. All rights reserved. Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
-{%- elif cookiecutter.project_license == "OSL-2.0" -%}
+{% elif cookiecutter.project_license == "OSL-2.0" -%}
 The Open Software License v. 2.0
 
 This Open Software License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
@@ -12746,7 +12746,7 @@ Licensed under the Open Software License version 2.0
    15) Right to Use. You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises not to interfere with or be responsible for such uses by You.
 
 This license is Copyright (C) 2003 Lawrence E. Rosen. All rights reserved. Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
-{%- elif cookiecutter.project_license == "OSL-2.1" -%}
+{% elif cookiecutter.project_license == "OSL-2.1" -%}
 The Open Software Licensev. 2.1
 
 This Open Software License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
@@ -12794,7 +12794,7 @@ Licensed under the Open Software License version 2.1
    15) Right to Use. You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises not to interfere with or be responsible for such uses by You.
 
 This license is Copyright (C) 2003-2004 Lawrence E. Rosen. All rights reserved. Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
-{%- elif cookiecutter.project_license == "OSL-3.0" -%}
+{% elif cookiecutter.project_license == "OSL-3.0" -%}
 Open Software License v. 3.0 (OSL-3.0)
 
 This Open Software License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following licensing notice adjacent to the copyright notice for the Original Work:
@@ -12842,7 +12842,7 @@ Licensed under the Open Software License version 3.0
    15) Right to Use. You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises not to interfere with or be responsible for such uses by You.
 
    16) Modification of This License. This License is Copyright (c) 2005 Lawrence Rosen. Permission is granted to copy, distribute, or communicate this License without modification. Nothing in this License permits You to modify this License as applied to the Original Work or to Derivative Works. However, You may modify the text of this License and copy, distribute or communicate your modified version (the "Modified License") and apply it to other original works of authorship subject to the following conditions: (i) You may not indicate in any way that your Modified License is the "Open Software License" or "OSL" and you may not use those names in the name of your Modified License; (ii) You must replace the notice specified in the first paragraph above with the notice "Licensed under <insert your license name here>" or with a notice of your own that is not confusingly similar to the notice in this License; and (iii) You may not claim that your original works are open source software unless your Modified License has been approved by Open Source Initiative (OSI) and You comply with its license review and certification process.
-{%- elif cookiecutter.project_license == "PHP-3.01" -%}
+{% elif cookiecutter.project_license == "PHP-3.01" -%}
 The PHP License, version 3.01 Copyright (c) 1999 - 2012 The PHP Group. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:
@@ -12868,7 +12868,7 @@ The PHP Group can be contacted via Email at group@php.net.
 For more information on the PHP Group and the PHP project, please see <http://www.php.net>.
 
 PHP includes the Zend Engine, freely available at <http://www.zend.com>.
-{%- elif cookiecutter.project_license == "PHP-3.0" -%}
+{% elif cookiecutter.project_license == "PHP-3.0" -%}
 The PHP License, version 3.0 Copyright (c) 1999 - 2006 The PHP Group. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:
@@ -12894,7 +12894,7 @@ The PHP Group can be contacted via Email at group@php.net.
 For more information on the PHP Group and the PHP project, please see <http://www.php.net>.
 
 This product includes the Zend Engine, freely available at <http://www.zend.com>.
-{%- elif cookiecutter.project_license == "PostgreSQL" -%}
+{% elif cookiecutter.project_license == "PostgreSQL" -%}
 PostgreSQL Database Management System
 
 (formerly known as Postgres, then as Postgres95) Portions Copyright (c) 1996-2010, The PostgreSQL Global Development Group
@@ -12906,7 +12906,7 @@ Permission to use, copy, modify, and distribute this software and its documentat
 IN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE UNIVERSITY OF CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
-{%- elif cookiecutter.project_license == "Python-2.0" -%}
+{% elif cookiecutter.project_license == "Python-2.0" -%}
 PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
 
    1. This LICENSE AGREEMENT is between the Python Software Foundation ("PSF"), and the Individual or Organization ("Licensee") accessing and otherwise using this software ("Python") in source or binary form and its associated documentation.
@@ -12964,7 +12964,7 @@ BY CLICKING ON "ACCEPT" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHE
 Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of Stichting Mathematisch Centrum or CWI not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
 
 STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-{%- elif cookiecutter.project_license == "QPL-1.0" -%}
+{% elif cookiecutter.project_license == "QPL-1.0" -%}
 THE Q PUBLIC LICENSE version 1.0 Copyright (C) 1999-2005 Trolltech AS, Norway.
 
 Everyone is permitted to copy and distribute this license document.
@@ -13014,7 +13014,7 @@ The Software and this license document are provided AS IS with NO WARRANTY OF AN
 Choice of Law
 
 This license is governed by the Laws of Norway. Disputes shall be settled by Oslo City Court.
-{%- elif cookiecutter.project_license == "RPL-1.1" -%}
+{% elif cookiecutter.project_license == "RPL-1.1" -%}
 Reciprocal Public License, version 1.1 Copyright (C) 2001-2002 Technical Pursuit Inc., All Rights Reserved. PREAMBLE
 
 This Preamble is intended to describe, in plain English, the nature, intent, and scope of this License. However, this Preamble is not a part of this License. The legal effect of this License is dependent only upon the terms of the License and not this Preamble.
@@ -13188,7 +13188,7 @@ Unless explicitly acquired and licensed from Licensor under the Technical Pursui
 You may obtain a copy of both the TPL and the RPL (the "Licenses") from Technical Pursuit Inc. at http://www.technicalpursuit.com.
 
 All software distributed under the Licenses is provided strictly on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND TECHNICAL PURSUIT INC. HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT, OR NON-INFRINGEMENT. See the Licenses for specific language governing rights and limitations under the Licenses.
-{%- elif cookiecutter.project_license == "RPL-1.5" -%}
+{% elif cookiecutter.project_license == "RPL-1.5" -%}
 Reciprocal Public License 1.5 (RPL1.5)
 
 Version 1.5, July 15, 2007 Copyright (C) 2001-2007 Technical Pursuit Inc., All Rights Reserved.
@@ -13352,7 +13352,7 @@ All software distributed under the RPL is provided strictly on an "AS IS" basis,
 EXHIBIT B
 
 The User-Visible Attribution Notice below, when provided, must appear in each user-visible display as defined in Section 6.4 (d):
-{%- elif cookiecutter.project_license == "RPSL-1.0" -%}
+{% elif cookiecutter.project_license == "RPSL-1.0" -%}
 RealNetworks Public Source License Version 1.0
 
 (Rev. Date October 28, 2002)
@@ -13556,7 +13556,7 @@ RealNetworks' Trademark policy.
 RealNetworks defines the following trademarks collectively as "Licensor Trademarks": "RealNetworks", "RealPlayer", "RealJukebox", "RealSystem", "RealAudio", "RealVideo", "RealOne Player", "RealMedia", "Helix" or any other trademarks or trade names belonging to RealNetworks.
 
 RealNetworks "Licensor Trademark Policy" forbids any use of Licensor Trademarks except as permitted by and in strict compliance at all times with RealNetworks' third party trademark usage guidelines which are posted at www.realnetworks.com/info/helixlogo.html.
-{%- elif cookiecutter.project_license == "RSCPL" -%}
+{% elif cookiecutter.project_license == "RSCPL" -%}
 Ricoh Source Code Public License
 
 Version 1.0
@@ -13688,7 +13688,7 @@ Software distributed under the License is distributed on an "AS IS" basis, WITHO
 This code was initially developed by Ricoh Silicon Valley, Inc. Portions created by Ricoh Silicon Valley, Inc. are Copyright (C) 1995-1999. All Rights Reserved.
 
 Contributor(s): ______________________________________."
-{%- elif cookiecutter.project_license == "Ruby" -%}
+{% elif cookiecutter.project_license == "Ruby" -%}
 
 
    1. You may make and give away verbatim copies of the source form of the software without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.
@@ -13720,7 +13720,7 @@ Contributor(s): ______________________________________."
    5. The scripts and library files supplied as input to or produced as output from the software do not automatically fall under the copyright of the software, but belong to whomever generated them, and may be sold commercially, and may be aggregated with this software.
 
    6. THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-{%- elif cookiecutter.project_license == "SGI-B-2.0" -%}
+{% elif cookiecutter.project_license == "SGI-B-2.0" -%}
 SGI FREE SOFTWARE LICENSE B
 
 (Version 2.0, Sept. 18, 2008) Copyright (C) [dates of first publication] Silicon Graphics, Inc. All Rights Reserved.
@@ -13732,7 +13732,7 @@ The above copyright notice including the dates of first publication and either t
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL SILICON GRAPHICS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Except as contained in this notice, the name of Silicon Graphics, Inc. shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from Silicon Graphics, Inc.
-{%- elif cookiecutter.project_license == "SimPL-2.0" -%}
+{% elif cookiecutter.project_license == "SimPL-2.0" -%}
 Simple Public License (SimPL) Preamble
 
 This Simple Public License 2.0 (SimPL 2.0 for short) is a plain language implementation of GPL 2.0. The words are different, but the goal is the same - to guarantee for all users the freedom to share and change software. If anyone wonders about the meaning of the SimPL, they should interpret it as consistent with GPL 2.0. Simple Public License (SimPL) 2.0
@@ -13774,7 +13774,7 @@ The SimPL continues perpetually, except that your license rights end automatical
 License for the License
 
 You may do anything that you want with the SimPL text; it's a license form to use in any way that you find helpful. To avoid confusion, however, if you change the terms in any way then you may not call your license the Simple Public License or the SimPL (but feel free to acknowledge that your license is "based on the Simple Public License").
-{%- elif cookiecutter.project_license == "SISSL" -%}
+{% elif cookiecutter.project_license == "SISSL" -%}
 Sun Industry Standards Source License - Version 1.1
 
    1.0 DEFINITIONS
@@ -13896,7 +13896,7 @@ OpenOffice.org XML File Format Specification, located at http://xml.openoffice.o
 OpenOffice.org Application Programming Interface Specification, located at
 
 http://api.openoffice.org
-{%- elif cookiecutter.project_license == "Sleepycat" -%}
+{% elif cookiecutter.project_license == "Sleepycat" -%}
 The Sleepycat License Copyright (c) 1990-1999 Sleepycat Software. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -13928,7 +13928,7 @@ Redistribution and use in source and binary forms, with or without modification,
    - Neither the name of the University nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY HARVARD AND ITS CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL HARVARD OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "SMLNJ" -%}
+{% elif cookiecutter.project_license == "SMLNJ" -%}
 STANDARD ML OF NEW JERSEY COPYRIGHT NOTICE, LICENSE AND DISCLAIMER. Copyright (c) 2001-2011 by The Fellowship of SML/NJ
 
 Copyright (c) 1989-2001 by Lucent Technologies
@@ -13936,7 +13936,7 @@ Copyright (c) 1989-2001 by Lucent Technologies
 Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both the copyright notice and this permission notice and warranty disclaimer appear in supporting documentation, and that the name of Lucent Technologies, Bell Labs or any Lucent entity not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
 
 Lucent disclaims all warranties with regard to this software, including all implied warranties of merchantability and fitness. In no event shall Lucent be liable for any special, indirect or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
-{%- elif cookiecutter.project_license == "SPL-1.0" -%}
+{% elif cookiecutter.project_license == "SPL-1.0" -%}
 SUN PUBLIC LICENSE Version 1.0
 
    1. Definitions.
@@ -14086,7 +14086,7 @@ Contributor(s): ______________________________________ .
 Alternatively, the contents of this file may be used under the terms of the _____ license (the ?[___] License? ), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the SPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the SPL or the [___] License.
 
 [NOTE: The text of this Exhibit A may differ slightly from the text of the notices in the Source Code files of the Original Code. You should use the text of this Exhibit A rather than the text found in the Original Code Source Code for Your Modifications.]
-{%- elif cookiecutter.project_license == "UCL-1.0" -%}
+{% elif cookiecutter.project_license == "UCL-1.0" -%}
 Upstream Compatibility License v. 1.0 (UCL-1.0)
 
 This Upstream Compatibility License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following licensing notice adjacent to the copyright notice for the Original Work:
@@ -14134,7 +14134,7 @@ Licensed under the Upstream Compatibility License 1.0
    15) Right to Use. You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises not to interfere with or be responsible for such uses by You.
 
    16) Modification of This License. This License is Copyright (c) 2005 Lawrence Rosen and Copyright (c) 2017 Nigel Tzeng. Permission is granted to copy, distribute, or communicate this License without modification. Nothing in this License permits You to modify this License as applied to the Original Work or to Derivative Works. However, You may modify the text of this License and copy, distribute or communicate your modified version (the "Modified License") and apply it to other original works of authorship subject to the following conditions: (i) You may not indicate in any way that your Modified License is the "Open Software License" or "OSL" or the "Upstream Compatibility License" or "UCL" and you may not use those names in the name of your Modified License; (ii) You must replace the notice specified in the first paragraph above with the notice "Licensed under <insert your license name here> " or with a notice of your own that is not confusingly similar to the notice in this License; and (iii) You may not claim that your original works are open source software unless your Modified License has been approved by Open Source Initiative (OSI) and You comply with its license review and certification process.
-{%- elif cookiecutter.project_license == "Unlicense" -%}
+{% elif cookiecutter.project_license == "Unlicense" -%}
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
@@ -14142,7 +14142,7 @@ Anyone is free to copy, modify, publish, use, compile, sell, or distribute this 
 In jurisdictions that recognize copyright laws, the author or authors of this software dedicate any and all copyright interest in the software to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this software under copyright law.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. For more information, please refer to <https://unlicense.org/>
-{%- elif cookiecutter.project_license == "UPL-1.0" -%}
+{% elif cookiecutter.project_license == "UPL-1.0" -%}
 Copyright (c) [year] [copyright holders] The Universal Permissive License (UPL), Version 1.0
 
 Subject to the condition set forth below, permission is hereby granted to any person obtaining a copy of this software, associated documentation and/or data (collectively the "Software"), free of charge and under any and all copyright rights in the Software, and any and all patent rights owned or freely licensable by each licensor hereunder covering either (i) the unmodified Software as contributed to or provided by such licensor, or (ii) the Larger Works (as defined below), to deal in both
@@ -14158,7 +14158,7 @@ This license is subject to the following condition:
 The above copyright notice and either this complete permission notice or at a minimum a reference to the UPL must be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-{%- elif cookiecutter.project_license == "Vim" -%}
+{% elif cookiecutter.project_license == "Vim" -%}
 VIM LICENSE
 
    I) There are no restrictions on distributing unmodified copies of Vim except that they must include this license text. You can also distribute unmodified parts of Vim , likewise unrestricted except that they must include this license text. You are also allowed to include executables that you made from the unmodified Vim sources, plus your own usage examples and Vim scripts.
@@ -14192,7 +14192,7 @@ VIM LICENSE
    III) If you distribute a modified version of Vim , you are encouraged to use the Vim license for your changes and make them available to the maintainer, including the source code. The preferred way to do this is by e-mail or by uploading the files to a server and e-mailing the URL. If the number of changes is small (e.g., a modified Makefile) e-mailing a context diff will do. The e-mail address to be used is <maintainer@vim.org>
 
    IV) It is not allowed to remove this license from the distribution of the Vim sources, parts of it or from a modified version. You may use this license for previous Vim releases instead of the license that they came with, at your option.
-{%- elif cookiecutter.project_license == "VSL-1.0" -%}
+{% elif cookiecutter.project_license == "VSL-1.0" -%}
 Vovida Software License v. 1.0 This license applies to all software incorporated in the "Vovida Open Communication Application Library" except for those portions incorporating third party software specifically identified as being licensed under separate license. The Vovida Software License, Version 1.0 Copyright (c) 2000 Vovida Networks, Inc. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -14206,7 +14206,7 @@ Redistribution and use in source and binary forms, with or without modification,
    4. Products derived from this software may not be called "VOCAL", nor may "VOCAL" appear in their name, without prior written permission.
 
 THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT ARE DISCLAIMED. IN NO EVENT SHALL VOVIDA NETWORKS, INC. OR ITS CONTRIBUTORS BE LIABLE FOR ANY DAMAGES IN EXCESS OF $1,000, NOR FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "W3C" -%}
+{% elif cookiecutter.project_license == "W3C" -%}
 W3C SOFTWARE NOTICE AND LICENSE
 
 This work (and included software, documentation such as READMEs, or other related items) is being provided by the copyright holders under the following license.
@@ -14234,7 +14234,7 @@ The name and trademarks of copyright holders may NOT be used in advertising or p
 This version: http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231
 
 This formulation of W3C's notice and license became active on December 31 2002. This version removes the copyright ownership notice such that this license can be used with materials other than those owned by the W3C, reflects that ERCIM is now a host of the W3C, includes references to this specific dated version of the license, and removes the ambiguous grant of "use". Otherwise, this version is the same as the previous version and is written so as to preserve the Free Software Foundation's assessment of GPL compatibility and OSI's certification under the Open Source Definition.
-{%- elif cookiecutter.project_license == "Watcom-1.0" -%}
+{% elif cookiecutter.project_license == "Watcom-1.0" -%}
 Sybase Open Watcom Public License version 1.0
 
 USE OF THE SYBASE OPEN WATCOM SOFTWARE DESCRIBED BELOW ("SOFTWARE") IS SUBJECT TO THE TERMS AND CONDITIONS SET FORTH IN THE SYBASE OPEN WATCOM PUBLIC LICENSE SET FORTH BELOW ("LICENSE"). YOU MAY NOT USE THE SOFTWARE IN ANY MANNER UNLESS YOU ACCEPT THE TERMS AND CONDITIONS OF THE LICENSE. YOU INDICATE YOUR ACCEPTANCE BY IN ANY MANNER USING (INCLUDING WITHOUT LIMITATION BY REPRODUCING, MODIFYING OR DISTRIBUTING) THE SOFTWARE. IF YOU DO NOT ACCEPT ALL OF THE TERMS AND CONDITIONS OF THE LICENSE, DO NOT USE THE SOFTWARE IN ANY MANNER.
@@ -14340,7 +14340,7 @@ Where You are located in the province of Quebec, Canada, the following clause ap
 This file contains Original Code and/or Modifications of Original Code as defined in and that are subject to the Sybase Open Watcom Public License version 1.0 (the 'License'). You may not use this file except in compliance with the License. BY USING THIS FILE YOU AGREE TO ALL TERMS AND CONDITIONS OF THE LICENSE. A copy of the License is provided with the Original Code and Modifications, and is also available at www.sybase.com/developer/opensource.
 
 The Original Code and all software distributed under the License are distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND SYBASE AND ALL CONTRIBUTORS HEREBY DISCLAIM ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT. Please see the License for the specific language governing rights and limitations under the License."
-{%- elif cookiecutter.project_license == "WTFPL" -%}
+{% elif cookiecutter.project_license == "WTFPL" -%}
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 
 Version 2, December 2004
@@ -14354,7 +14354,7 @@ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
    0. You just DO WHAT THE FUCK YOU WANT TO.
-{%- elif cookiecutter.project_license == "X11" -%}
+{% elif cookiecutter.project_license == "X11" -%}
 X11 License Copyright (C) 1996 X Consortium
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -14366,7 +14366,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium.
 
 X Window System is a trademark of X Consortium, Inc.
-{%- elif cookiecutter.project_license == "XFree86-1.1" -%}
+{% elif cookiecutter.project_license == "XFree86-1.1" -%}
 XFree86 License (version 1.1) Copyright (C) 1994-2006 The XFree86 Project, Inc.
 
 All rights reserved.
@@ -14382,7 +14382,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
    4. Except as contained in this notice, the name of The XFree86 Project, Inc shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from The XFree86 Project, Inc.
 
 THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE XFREE86 PROJECT, INC OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "xinetd" -%}
+{% elif cookiecutter.project_license == "xinetd" -%}
 ORIGINAL LICENSE: This software is (c) Copyright 1992 by Panagiotis Tsirigotis
 
 The author (Panagiotis Tsirigotis) grants permission to use, copy, and distribute this software and its documentation for any purpose and without fee, provided that the above copyright notice extant in files in this distribution is not removed from files included in any redistribution and that this copyright notice is also included in any redistribution.
@@ -14408,7 +14408,7 @@ This is an exerpt from an email I recieved from the original author, allowing xi
 I appreciate your maintaining the version string guidelines as specified in the copyright. But I did not mean them to last as long as they did.
 
 So, if you want, you may use any 2.N.* (N >= 3) version string for future xinetd versions that you release. Note that I am excluding the 2.2.* line; using that would only create confusion. Naming the next release 2.3.0 would put to rest the confusion about 2.2.1 and 2.1.8.*.
-{%- elif cookiecutter.project_license == "Xnet" -%}
+{% elif cookiecutter.project_license == "Xnet" -%}
 The X.Net, Inc. License Copyright (c) 2000-2001 X.Net, Inc. Lafayette, California, USA
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -14418,7 +14418,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 This agreement shall be governed in all respects by the laws of the State of California and by the laws of the United States of America.
-{%- elif cookiecutter.project_license == "YPL-1.1" -%}
+{% elif cookiecutter.project_license == "YPL-1.1" -%}
 Yahoo! Public License, Version 1.1 (YPL)
 
 This Yahoo! Public License (this "Agreement") is a legal agreement that describes the terms under which Yahoo! Inc., a Delaware corporation having its principal place of business at 701 First Avenue, Sunnyvale, California 94089 ("Yahoo!") will provide software to you via download or otherwise ("Software"). By using the Software, you, an individual or an entity ("You") agree to the terms of this Agreement.
@@ -14470,7 +14470,7 @@ In consideration of the mutual promises and upon the terms and conditions set fo
    7. Miscellaneous
 
    This Agreement contains the entire agreement of the parties with respect to the subject matter of this Agreement and supersedes all previous communications, representations, understandings and agreements, either oral or written, between the parties with respect to said subject matter. The relationship of the parties hereunder is that of independent contractors, and this Agreement will not be construed as creating an agency, partnership, joint venture or any other form of legal association between the parties. If any term, condition, or provision in this Agreement is found to be invalid, unlawful or unenforceable to any extent, this Agreement will be construed in a manner that most closely effectuates the intent of this Agreement. Such invalid term, condition or provision will be severed from the remaining terms, conditions and provisions, which will continue to be valid and enforceable to the fullest extent permitted by law. This Agreement will be interpreted and construed in accordance with the laws of the State of California and the United States of America, without regard to conflict of law principles. The U.N. Convention on Contracts for the International Sale of Goods shall not apply to this Agreement. All disputes arising out of this Agreement involving Yahoo! or any of its subsidiaries shall be subject to the jurisdiction of the federal or state courts of northern California, with venue lying in Santa Clara County, California. No rights may be assigned, no obligations may be delegated, and this Agreement may not be transferred by You, in whole or in part, whether voluntary or by operation of law, including by way of sale of assets, merger or consolidation, without the prior written consent of Yahoo!, and any purported assignment, delegation or transfer without such consent shall be void ab initio. Any waiver of the provisions of this Agreement or of a party's rights or remedies under this Agreement must be in writing to be effective. Failure, neglect or delay by a party to enforce the provisions of this Agreement or its rights or remedies at any time, will not be construed or be deemed to be a waiver of such party's rights under this Agreement and will not in any way affect the validity of the whole or any part of this Agreement or prejudice such party's right to take subsequent action.
-{%- elif cookiecutter.project_license == "Zend-2.0" -%}
+{% elif cookiecutter.project_license == "Zend-2.0" -%}
 The Zend Engine License, version 2.00 Copyright (c) 1999-2002 Zend Technologies Ltd. All rights reserved.
 
 
@@ -14490,7 +14490,7 @@ Redistribution and use in source and binary forms, with or without modification,
    6. All advertising materials mentioning features or use of this software must display the following acknowledgment: "The Zend Engine is freely available at http://www.zend.com"
 
 THIS SOFTWARE IS PROVIDED BY ZEND TECHNOLOGIES LTD. ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ZEND TECHNOLOGIES LTD. BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{%- elif cookiecutter.project_license == "Zimbra-1.3" -%}
+{% elif cookiecutter.project_license == "Zimbra-1.3" -%}
 Zimbra Public License, Version 1.3 (ZPL)
 
 This Zimbra Public License (this "Agreement") is a legal agreement that describes the terms under which VMware, Inc., a Delaware corporation having its principal place of business at 3401 Hillview Avenue, Palo Alto, California 94304 ("VMware") will provide software to you via download or otherwise ("Software"). By using the Software, you, an individual or an entity ("You") agree to the terms of this Agreement.
@@ -14542,7 +14542,7 @@ In consideration of the mutual promises and upon the terms and conditions set fo
    7. Miscellaneous
 
    This Agreement contains the entire agreement of the parties with respect to the subject matter of this Agreement and supersedes all previous communications, representations, understandings and agreements, either oral or written, between the parties with respect to said subject matter. The relationship of the parties hereunder is that of independent contractors, and this Agreement will not be construed as creating an agency, partnership, joint venture or any other form of legal association between the parties. If any term, condition, or provision in this Agreement is found to be invalid, unlawful or unenforceable to any extent, this Agreement will be construed in a manner that most closely effectuates the intent of this Agreement. Such invalid term, condition or provision will be severed from the remaining terms, conditions and provisions, which will continue to be valid and enforceable to the fullest extent permitted by law. This Agreement will be interpreted and construed in accordance with the laws of the State of California and the United States of America, without regard to conflict of law principles. The U.N. Convention on Contracts for the International Sale of Goods shall not apply to this Agreement. All disputes arising out of this Agreement involving VMware or any of its subsidiaries shall be subject to the jurisdiction of the federal or state courts of northern California, with venue lying in Santa Clara County, California. No rights may be assigned, no obligations may be delegated, and this Agreement may not be transferred by You, in whole or in part, whether voluntary or by operation of law, including by way of sale of assets, merger or consolidation, without the prior written consent of VMware, and any purported assignment, delegation or transfer without such consent shall be void ab initio. Any waiver of the provisions of this Agreement or of a party's rights or remedies under this Agreement must be in writing to be effective. Failure, neglect or delay by a party to enforce the provisions of this Agreement or its rights or remedies at any time, will not be construed or be deemed to be a waiver of such party's rights under this Agreement and will not in any way affect the validity of the whole or any part of this Agreement or prejudice such party's right to take subsequent action.
-{%- elif cookiecutter.project_license == "Zlib" -%}
+{% elif cookiecutter.project_license == "Zlib" -%}
 zlib License Copyright (c) <year> <copyright holders>
 
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
@@ -14554,7 +14554,7 @@ Permission is granted to anyone to use this software for any purpose, including 
    2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
 
    3. This notice may not be removed or altered from any source distribution.
-{%- elif cookiecutter.project_license == "ZPL-2.0" -%}
+{% elif cookiecutter.project_license == "ZPL-2.0" -%}
 Zope Public License (ZPL) Version 2.0 This software is Copyright (c) Zope Corporation (tm) and Contributors. All rights reserved. This license has been certified as open source. It has also been designated as GPL compatible by the Free Software Foundation (FSF).
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -14572,7 +14572,7 @@ Redistribution and use in source and binary forms, with or without modification,
 Disclaimer
 
 THIS SOFTWARE IS PROVIDED BY ZOPE CORPORATION ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ZOPE CORPORATION OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. This software consists of contributions made by Zope Corporation and many individuals on behalf of Zope Corporation. Specific attributions are listed in the accompanying credits file.
-{%- elif cookiecutter.project_license == "ZPL-2.1" -%}
+{% elif cookiecutter.project_license == "ZPL-2.1" -%}
 Zope Public License (ZPL) Version 2.1 A copyright notice accompanies this license document that identifies the copyright holders.
 
 This license has been certified as open source. It has also been designated as GPL compatible by the Free Software Foundation (FSF).
@@ -14592,4 +14592,4 @@ Redistribution and use in source and binary forms, with or without modification,
 Disclaimer
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-{% endif %}
+{% endif -%}

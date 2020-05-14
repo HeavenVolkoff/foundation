@@ -5,7 +5,16 @@
 
 [tool.black]
 line-length = 99
-target-version = ['py37']
+target-version = ['py
+{%- set ns = namespace(counter=0) -%}
+{%- set version = cookiecutter.python_version + '0' -%}
+{%- for char in version -%}
+{%- if char.isdigit() and ns.counter < 2 -%}
+{{ char }}
+{%- set ns.counter = ns.counter + 1 -%}
+{%- endif -%}
+{%- endfor -%}
+']
 include = '\.pyi?$'
 exclude = '''
 (
