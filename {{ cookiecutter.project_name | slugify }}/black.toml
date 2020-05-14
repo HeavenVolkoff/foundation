@@ -7,7 +7,7 @@
 line-length = 99
 target-version = ['py
 {%- set ns = namespace(counter=0) -%}
-{%- set version = cookiecutter.python_version + '0' -%}
+{%- set version = cookiecutter.minimum_python_version + '0' -%}
 {%- for char in version -%}
 {%- if char.isdigit() and ns.counter < 2 -%}
 {{ char }}
