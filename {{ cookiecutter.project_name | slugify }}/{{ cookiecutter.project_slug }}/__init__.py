@@ -1,5 +1,12 @@
+{% set minor = cookiecutter.minimum_python_version.split('.')[1] | int -%}
+{% if minor < 8 -%}
 # External
 from importlib_metadata import version
+{% else -%}
+# Internal
+from importlib.metadata import version
+{% endif -%}
+
 
 try:
     __version__: str = version(__name__)
